@@ -1,28 +1,31 @@
 {
   "name": "smart-helpdesk-ai-service",
   "version": "1.0.0",
-  "main": "scaffold-ai.js",
+  "description": "Smart Helpdesk AI Service - Image Analysis with Gemini Vision",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run build && node dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "echo 'Linting disabled for MVP'",
+    "format": "echo 'Formatting disabled for MVP'",
+    "prepare": "husky"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "multer": "^2.1.1"
+    "@google/generative-ai": "^0.11.4",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/multer": "^2.1.0",
-    "@types/node": "^25.6.0",
-    "nodemon": "^3.1.14",
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.10.5",
+    "prettier": "^3.8.3",
+    "typescript": "^5.3.3"
   }
 }

@@ -16,19 +16,13 @@ def chatbot(query_text=None, image_path=None):
         image_path=image_path, 
         context=context_text
     )
-
-    # --- PERBAIKAN UNTUK API CONTRACT & FIX KEYERROR ---
     
-    # Pastikan analysis adalah dictionary. 
-    # Jika Gemini mengembalikan JSON string, kita parse dulu.
     if isinstance(analysis, str):
         try:
             analysis = json.loads(analysis)
         except:
             analysis = {"response": analysis}
 
-    # Kita bungkus hasilnya agar sesuai dengan harapan api.py
-    # Gunakan kunci 'response' sesuai API Contract v1.0 
     return {
         "response": analysis.get("response", analysis.get("answer", "Maaf, saya tidak menemukan jawaban.")),
         "context": [

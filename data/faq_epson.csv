@@ -1,0 +1,909 @@
+﻿web_scraper_order,web_scraper_start_url,links,question_links,question,anwer
+"1775041447-1","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-0000a05-shared?faq_cat=faq-topFaqs","What security measures does Epson recommend for its network products?","To help deter unauthorized access to your product over a network, you should protect your network environment using appropriate security measures.
+Security measures such as these can help deter threats such as loss of user data, use of telephone and fax lines, and other intrusions:
+
+	Enable security on your wireless LAN if your product supports a wireless connection
+	Enable the appropriate security on the wireless LAN you plan to use with your product. Network security, such as a network password, can deter interception of traffic over the wireless LAN. Your router may already have a default password enabled by your Internet service provider (ISP). See your ISP and router documentation for instructions on how to change the default password and better secure your network.
+	Connect your product only to a network protected by a firewall
+	Connecting your product directly to the Internet may leave it vulnerable to security threats. Instead, connect it to a router or other networking device protected by a firewall. Your router may already have a firewall set up by your Internet service provider; check with your ISP for confirmation. For best results, set up and use a private IP address for your network connection.
+	Change the default administrator password on your product
+	If your product has an option to set an administrator password, change the default administrator password to deter access by unauthorized users to personal data stored on your product, such as IDs, passwords, and contact lists. See the product's User's Guide for more information."
+"1775041450-2","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-00004b8-shared?faq_cat=faq-topFaqs","Web pages don't print the way they appear on my monitor. What should I do?","The pages may not print correctly due to the web page design. Try the following:      Check for a Printer-friendly Version (or similarly named) option on the web page.    Change the page setup and paper size settings, and select the preview option in your browser to check the changes before you print."
+"1775041453-3","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-0000490-shared?faq_cat=faq-topFaqs","Why doesn't Epson include a USB or Ethernet cable in the box with the product?","We are committed to giving our customers the best value possible with every product we sell. To provide high-quality products with the latest technology and sell them at the most competitive prices, it is critical to choose which components are necessary and which may be redundant. Because many of our customers already own USB or Ethernet cables, it makes good sense to eliminate the costs of including a cable in every box and use those savings to improve product features and lower the cost to you, the consumer.      Note: Not all products support an Ethernet interface."
+"1775041456-4","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-00004c9-shared?faq_cat=faq-topFaqs","Scanning is slow to start when I select the Scan to Network Folder/FTP option on my product's control panel. What should I do?","To speed up scanning, use the computer or server's IP address (instead of the host name) in the location of the folder. Then try scanning again.      Example: \\123.456.7.890\network_folder"
+"1775041460-5","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-00004dc-shared?faq_cat=faq-topFaqs","Does Epson make drivers for Linux?","Linux drivers are available for some products. Visit the links below to see the drivers available for your product, as well as information about using an Epson product with Linux.      Note: Epson does not provide support for Linux drivers.        Linux drivers for Epson products      Linux FAQs for Epson products(only available in English)      Linux manuals for Epson products(only available in English)"
+"1775041464-6","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-00004db-shared?faq_cat=faq-topFaqs","Who do I contact for software support?","Click on the Contact Us tab on your product's support page to contact Epson for support. If your product comes with third-party software, contact the software company."
+"1775041468-7","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-00004fc-shared?faq_cat=faq-topFaqs","How do I obtain the latest product software for Windows or my Mac?","The following options are available:      You can use Epson Software Updater (which is installed the first time you install the printer driver) to notify you when new updates are available for download. Software Updater analyzes the Epson software (drivers, utilities, firmware, etc.) installed on your computer and product, and notifies you if new updates are available for download.    If you already installed a Windows printer driver, you can update the driver by selecting Software Update on the Maintenance tab in the printer driver settings window.    You can download the software from the Downloads tab on your product's support page."
+"1775041472-8","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-00004ba-shared?faq_cat=faq-topFaqs","How do I add my product as an IP printer on my Mac?","Do the following:      Open the  menu, select System Preferences or System Settings, and then select Print & Fax, Print & Scan, or Printers & Scanners.    Select your printer, if necessary.    Click + or Add Printer, Scanner, or Fax and select IP on the toolbar.    Select a protocol. If you do not know which protocol to choose, leave it as Line Printer Daemon-LPD.    Click the Address field and enter your printer's IP address. You see the message Gathering printer information as your Mac connects to the printer.    Click Add after your printer appears in the Use field to create a printer queue. If your printer does not appear in the Use field, select Auto Select from the drop-down box."
+"1775041475-9","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-0000b11-shared?faq_cat=faq-topFaqs","Can I set up my product for both a USB and network connection?","Yes, you can set up the product for both a USB and a wireless network connection at the same time. To set up both connections, you must install the product's software twice (i.e., once for each connection type).
+Note: With this setup, your product may appear as two devices in the Printer list. One device is for the USB connection, and the other is for the network connection."
+"1775041478-10","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127471692","https://epson.com/faq/SPT_C11CJ67201~faq-00009c6-shared?faq_cat=faq-topFaqs","How do I find my SSID and network password?","In most cases, the software installer will automatically set up your wireless connection, so you don't need to know your SSID and password. However, if it cannot determine your SSID or password, you will be prompted to set up your wireless connection manually.      Check your router documentation for this information. Most routers have a default SSID and password that can be modified once the router is set up.      Note: The SSID is the name of the wireless network that is set up on your router or access point.      If you don't know this information, you need to contact the manufacturer of your router or the person who set up your network."
+"1775041484-11","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-0000b11-et2400?faq_cat=faq-8796127635532","Can I set up my product for both a USB and network connection?","Yes, you can set up the product for both a USB and a wireless network connection at the same time. To set up both connections, you must install the product's software twice (once for each connection type).
+ Follow the setup instructions in our how-to video.
+Note: With this setup, your product may appear as two devices in the Printer list. One device is for the USB connection, and the other is for the network connection."
+"1775041487-12","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00007f3-et2400?faq_cat=faq-8796127635532","How do I connect my product to my wireless network using the product's control panel?","See the instructions in our how-to video or follow the instructions below.
+Selecting Wireless Network Settings from the Control Panel
+You can select or change wireless network settings using your product control panel.
+
+To install your product on a wireless network, follow the instructions on the Start Here sheet and install the necessary software. The installer program guides you through network setup.
+
+Note: Breakdown or repair of this product may cause loss of network data and settings. Epson is not responsible for backing up or recovering data and settings during or after the warranty period. We recommend that you make your own backup or print out your network data and settings.
+
+
+	Press the  home button, if necessary.
+	Press the arrow buttons to select Wi-Fi Setup and press the OK button. You see this screen:
+
+	
+	Press the arrow buttons to select Wi-Fi (Recommended) and press the OK button twice.
+	Press the arrow buttons to select Wi-Fi Setup Wizard and press the OK button.
+	Press the arrow buttons to select the name of your wireless network and press the OK button. If you do not see your wireless network's name, you can enter it manually.
+	Note: To enter the wireless network name manually, select Other SSIDs and press the OK button. Enter your network name as described in the next step.
+	Enter your wireless password (or network name and then password).
+
+	
+	
+		To enter characters, press the buttons on the numeric keypad.
+		To change the character case or type, select A1# or press the  reset button.
+		To move the cursor to the right or add a space, press the right arrow button.
+		To move the cursor to the left, press the left arrow button.
+		To enter symbols, press 1 on the numeric keypad.
+		To delete the previous character, select .
+		When you finish entering characters, select OK and press the OK button.
+	
+	
+	If you want to print a network setup report, press the  start button. (Otherwise, press the  stop button.) Your product should now display a blue  Wi-Fi icon on the LCD screen.
+	Note: If the  Wi-Fi icon is not displayed on the LCD screen as shown above, you may have selected the wrong network name or entered the password incorrectly. Repeat these steps to try again."
+"1775041490-13","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00009ce-et2400?faq_cat=faq-8796127635532","I tried to install the product in Windows with a wireless connection, but the installation failed. What should I do?","You need to set up your software and product again. Do the following:
+
+	Reset your product's network settings. See these instructions.
+	Do one of the following:
+	 
+	
+		Windows 11: Click , then search for Settings and select it. Select Network & Internet > Advanced network settings > Windows Firewall. Disable the firewall.
+		Windows 10: Click  and select  (Settings) > Network & Internet > Windows Firewall. Disable the firewall.
+		Windows 8.x: Navigate to the Apps screen and select Control Panel > Windows Firewall. Disable the firewall.
+		Windows (other versions): Select  or Start > Control Panel > System and Security > Windows Firewall. Disable the firewall.
+	
+
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Uninstall your product's software. See these instructions.
+	Unplug your router's power cord from the power outlet, wait a brief period, and then plug it back in.
+	Note: You may need to re-establish the connection for the other devices on your network.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	Note: After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041493-14","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00009cc-et2400?faq_cat=faq-8796127635532","I can't print from Windows with a wireless connection since I received an exchange product from Epson. What should I do?","You need to set up your product again.
+ See the setup instructions in our how-to video or follow the instructions below.
+
+	Do one of the following:
+	 
+	
+		Windows 11: Click , then search for Settings and select it. Select Network & Internet > Advanced network settings > Windows Firewall. Disable the firewall.
+		Windows 10: Click  and select  (Settings) > Network & Internet > Windows Firewall. Disable the firewall.
+		Windows 8.x: Navigate to the Apps screen and select Control Panel > Windows Firewall. Disable the firewall.
+		Windows (other versions): Select  or Start > Control Panel > System and Security > Windows Firewall. Disable the firewall.
+	
+
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	If you received a different product for exchange, go to the main Epson Support page, select your product, and then download the software from the Downloads tab on the product's support page.
+	Note: After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041496-15","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00009cd-et2400?faq_cat=faq-8796127635532","I tried to install the product on my Mac with a wireless connection, but the installation failed. What should I do?","Try setting up your software and product again. Do the following:
+
+	Reset your product's network settings. See these instructions.
+	Open the  menu, select System Preferences or System Settings, and then click either Security & Privacy or Security. Select the Firewall tab and disable the firewall.
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Unplug your router's power cord from the power outlet, wait a brief period, and then plug it back in.
+	Note: You may need to re-establish the connection for the other devices on your network.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	Note: After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041499-16","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00009cb-et2400?faq_cat=faq-8796127635532","I can't print from my Mac with a wireless connection since I received an exchange product from Epson. What should I do?","You need to set up your product again.
+ See the setup instructions in our how-to video or follow the instructions below.
+
+	Open the  menu, select System Preferences or System Settings, and then click either Security & Privacy or Security. Select the Firewall tab and disable the firewall.
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	If you received a different product for exchange, go to the main Epson Support page, select your product, and then download the software from the Downloads tab on the product's support page.
+	Note: After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041502-17","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-0000913-et2400?faq_cat=faq-8796127635532","I was able to print from my Mac before with a wireless connection, but now I can't. What should I do?","This problem can be caused by your printer, computer, or wireless network. Do the following:
+ 
+
+	To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.
+	
+		If you can print a nozzle check pattern, go to the next step.
+		If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.
+	
+	
+	Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	On your Mac, open the  menu and select System Preferences. Select Print & Scan, Print & Fax, or Printers & Scanners, select your printer, and then click the  button to remove the printer. Click , select your printer with Kind set as Bonjour, select your printer from the Use drop-down list, and then click Add. This adds the printer back to the printer queue. Try printing again. If you can print, you're done, and you can skip the remaining steps. Otherwise, go to the next step.
+	Check your product's Wi-Fi indicator and do one of the following:
+	
+		If a wireless connection is established, unplug your router's power cord from the power outlet, wait a brief period, plug it back in, and then try to print. If you can print, you're done. The problem was resolved by restarting your router. If you can't print, restart your computer and try printing again. If these steps do not resolve your problem, contact Epson Support.
+		Note: You may need to re-establish the connection for the other devices on your network after you restart your router.
+		If a wireless connection is not established, follow the instructions in the Reinstall the Product Software section below.
+	
+	
+
+
+Reinstall the Product Software
+
+
+	Reset your product's network settings. See these instructions.
+	On your Mac, open the  menu and select System Preferences. Select Print & Scan, Print & Fax, or Printers & Scanners, select your printer, and then click the  button to remove the printer.
+	Open the  menu, select System Preferences, and then click either Security & Privacy or Security. Select the Firewall tab and disable the firewall.
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Unplug your router's power cord from the power outlet, wait a brief period, and then plug it back in.
+	Note: You may need to re-establish the connection for the other devices on your network.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041506-18","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-0000914-et2400?faq_cat=faq-8796127635532","I was able to print from Windows before with a wireless connection, but now I can't. What should I do?","This problem can be caused by your printer, computer, or wireless network. Do the following:
+ 
+
+	To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.
+	
+		If you can print a nozzle check pattern, go to the next step.
+		If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.
+	
+	
+	Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	In the Epson print queue, select Printer and deselect the Use Printer Offline checkbox. If you can print, you're done. Otherwise, go to the next step.
+	Check your product's Wi-Fi indicator and do one of the following:
+	
+		If a wireless connection is established, unplug your router's power cord from the power outlet, wait a brief period, plug it back in, and then try to print. If you can print, you're done. The problem was resolved by restarting your router. If you can't print, restart your computer and try printing again. If these steps do not resolve your problem, contact Epson Support.
+		Note: You may need to re-establish the connection for the other devices on your network after you restart your router.
+		If a wireless connection is not established, follow the instructions in the Reinstall the Product Software section below.
+	
+	
+
+
+Reinstall the Product Software
+
+
+	Reset your product's network settings. See these instructions.
+	Turn off the product and disconnect any interface cables.
+	Do one of the following:
+	 
+	
+		Windows 11: Click , then search for Settings and select it. Select Network & Internet > Advanced network settings > Windows Firewall. Disable the firewall.
+		Windows 10: Click  and select  (Settings) > Network & Internet > Windows Firewall. Disable the firewall.
+		Windows 8.x: Navigate to the Apps screen and select Control Panel > Windows Firewall. Disable the firewall.
+		Windows (other versions): Select  or Start > Control Panel > System and Security > Windows Firewall. Disable the firewall.
+	
+
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Uninstall your product's software. See these instructions.
+	Unplug your router's power cord from the power outlet, wait a brief period, and then plug it back in.
+	Note: You may need to re-establish the connection for the other devices on your network.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041511-19","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-0000495-et2400?faq_cat=faq-8796127635532","I can't print from Windows with a wireless connection after I replaced my router. What should I do?","You need to set up your product again for the new router. Do the following:
+
+	Uninstall your product's software. See these instructions.
+	Do one of the following:
+	 
+	
+		Windows 11: Click , then search for Settings and select it. Select Network & Internet > Advanced network settings > Windows Firewall. Disable the firewall.
+		Windows 10: Click  and select  (Settings) > Network & Internet > Windows Firewall. Disable the firewall.
+		Windows 8.x: Navigate to the Apps screen and select Control Panel > Windows Firewall. Disable the firewall.
+		Windows (other versions): Select  or Start > Control Panel > System and Security > Windows Firewall. Disable the firewall.
+	
+
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041514-20","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-0000494-et2400?faq_cat=faq-8796127635532","I can't print from my Mac with a wireless connection after I replaced my router. What should I do?","You need to set up your product again for the new router. Do the following:
+
+	Open the  menu, select System Preferences > Print & Fax, Print & Scan, or Printers & Scanners > your printer, and then click the  button to remove the printer.
+	Open the  menu, select System Preferences, and then click either Security & Privacy or Security. Select the Firewall tab and disable the firewall.
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041517-21","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-0000a2b-et2400?faq_cat=faq-8796127635532","How do I check my product’s network status?","You can use a web browser to check the operating status of the product with the product’s built-in Web Config Utility, or you can print a network connection report to diagnose connection problems with the product on your network. See below.      Accessing the Web Config Utility  You can select your product's network settings and confirm its operating status using a web browser. You do this by accessing your product's built-in Web Config utility from a computer or other device that is connected to the same network as your product.    Print a network status sheet.    Locate the IP address for your product that is listed on the network status sheet.    On a computer or other device connected to the same network as your product, open a web browser.    Enter your product's IP address into the address bar.    You see the available Web Config utility options.  
+
+Related tasks
+  Printing a Network Status Sheet
+    Printing a Network Connection Report  You can print a network connection report that provides details of the connection between the product and the wireless router.    To print the network connection report, press the  network status button on the product.    Review the information contained in the report and resolve any errors.    Related references
+  Network Connection Report Codes and Messages"
+"1775041519-22","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00007f2-et2400?faq_cat=faq-8796127635532","How do I change from a USB connection to a Wi-Fi connection?","See below.      Changing a USB Connection to a Wi-Fi Connection  If you have already connected your product to your computer using a USB connection, you can change to a Wi-Fi connection.    Disconnect the USB cable from your product.    Uninstall your product software.    Download and install your product software from the Epson website using the instructions on the Start Here sheet.    Related concepts
+  Uninstall Your Product Software"
+"1775041523-23","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00005f0-et2400?faq_cat=faq-8796127635532","How do I connect my WPS-enabled wireless router to my product?","See below.      Using WPS to Connect to a Network  If you have a WPS-enabled router or access point, you can use Wi-Fi Protected Setup (WPS) to connect your device to the network.    Note: To check if your router is WPS-enabled, look for a button labeled WPS on your router or access point. If there is no hardware button, there may be a virtual WPS button in the software for the device. Check your network product documentation for details.      Press the WPS button on your router or access point.    Hold down the Wi-Fi button on your product for about five seconds until the  Wi-Fi light and  Wi-Fi Direct light flash alternately. The  Wi-Fi light turns green to indicate a successful connection.    Note: Be sure to press and hold the Wi-Fi button on your product within 2 minutes of pressing the WPS button on your router or access point.      Related references
+  Product Light Status"
+"1775041525-24","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00005ef-et2400?faq_cat=faq-8796127635532","How do I connect my product with a Wi-Fi Direct connection?","See below.      Enabling Wi-Fi Direct Mode  You can enable Wi-Fi Direct mode to allow direct communication between your product and computer or other devices without a wireless router or access point. Make sure paper is loaded before you begin.    Note: If you are printing from a computer, make sure you installed the network software as described on the Start Here sheet.      Hold down the Wi-Fi button and press the  network status button until the  Wi-Fi light and  Wi-Fi Direct light flash alternately. Then release both buttons.    Note: When you are using an Android device and connect to the printer using Wi-Fi Direct, the  Wi-Fi light and  Wi-Fi Direct light flash simultaneously on the printer.  After both lights stop flashing, the  Wi-Fi Direct light remains on.    Hold down the  network status button for about seven seconds to print a network status sheet.    Use your computer or wireless device to select the Wi-Fi network name (SSID) and password listed in the Wi-Fi Direct section of the network status sheet. You should now be able to print to your product directly from your computer or device. If you cannot print successfully, repeat the process above and make sure you enter the password exactly as written on the network status sheet."
+"1775041528-25","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00004c1-shared?faq_cat=faq-8796127635532","Where can I get my wireless password for Apple AirPort Extreme or Express?","Contact Apple for assistance."
+"1775041531-26","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-0000b11-shared?faq_cat=faq-8796127635532","Can I set up my product for both a USB and network connection?","Yes, you can set up the product for both a USB and a wireless network connection at the same time. To set up both connections, you must install the product's software twice (i.e., once for each connection type).
+Note: With this setup, your product may appear as two devices in the Printer list. One device is for the USB connection, and the other is for the network connection."
+"1775041534-27","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127635532","https://epson.com/faq/SPT_C11CJ67201~faq-00009c6-shared?faq_cat=faq-8796127635532","How do I find my SSID and network password?","In most cases, the software installer will automatically set up your wireless connection, so you don't need to know your SSID and password. However, if it cannot determine your SSID or password, you will be prompted to set up your wireless connection manually.      Check your router documentation for this information. Most routers have a default SSID and password that can be modified once the router is set up.      Note: The SSID is the name of the wireless network that is set up on your router or access point.      If you don't know this information, you need to contact the manufacturer of your router or the person who set up your network."
+"1775041540-28","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000f4d-shared?faq_cat=faq-8796127602764","How do I install a printer in Windows 11 24H2 or later?","See our Installing a Printer in Windows 11 24H2 or Later page for details."
+"1775041544-29","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000f4c-shared?faq_cat=faq-8796127602764","How do I add my Epson printer to the Printer list in macOS 12 or later?","See our Adding a Printer in macOS 12 or Later page for details."
+"1775041546-30","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000f4b-shared?faq_cat=faq-8796127602764","I can't find some of my printer's settings in macOS 12 or later. What should I do?","Make sure you're using the Epson driver for your printer. See our Adding a Printer in macOS 12 or Later page for instructions."
+"1775041550-31","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-000050c-et2400?faq_cat=faq-8796127602764","How do I install the software for my product if I don't have the CD?","You can download the latest driver for your product from the Downloads tab on your product's support page.
+Note: Mac drivers are available via download only.
+To download and install the drivers and utilities, do the following:
+
+	Make sure the product is not connected to your computer. (You will be prompted to connect it during the installation process, if necessary.)
+	
+	Note: Make a note of the file name and its location so you can easily retrieve it.
+	Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+
+
+To obtain a replacement copy of the software CD (stock permitting), please contact our Driver Fulfillment department at 562-276-4367 (U.S.) or 905-709-3839 (Canada). A charge for shipping and handling plus any applicable taxes may apply."
+"1775041554-32","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000aac-et2400?faq_cat=faq-8796127602764","How do I fill the ink tanks for the first time?","See our helpful how-to video on YouTube."
+"1775041556-33","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000502-et2400?faq_cat=faq-8796127602764","How do I set up my product for wireless printing in Windows or on my Mac?","See our helpful how-to video on YouTube."
+"1775041560-34","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004fb-et2400?faq_cat=faq-8796127602764","The option for 2-Sided Printing (Windows only) is gray or not available. What should I do?","Make sure you use a paper type and size that supports this feature. Automatic double-sided printing is only available if you select plain paper and one of these paper sizes in the printer software:      Letter (8.5 × 11 inches [216 × 279 mm])    A4 (8.3 × 11.7 inches [210 × 297 mm])"
+"1775041563-35","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000803-et2400?faq_cat=faq-8796127602764","How do I enable double-sided printing for my product in Windows?","You can print on both sides of the paper by selecting one of the 2-Sided Printing options on the Main tab.
+  
+    Note: You will need to print one side and flip the paper over manually to print the other side.      Note:Some options may be pre-selected or unavailable, depending on other settings you have chosen or if you are accessing the product over a network.      Select one of the following options for 2-Sided Printing:      Manual (Long-edge binding) to print your double-sided print job by printing one side and prompting you to flip the paper over on the long edge to print the other side.      Manual (Short-edge binding) to print your double-sided print job by printing one side and prompting you to flip the paper over on the short edge to print the other side.        Click the Settings button. You see a window like this:
+  
+    Select the double-sided printing options you want to use.    Click OK to return to the Main tab.    Print a test copy of your double-sided document to test the selected settings.    Follow any instructions displayed on the screen during printing.        Note: The surface of the paper may smear during double-sided printing. Make sure the ink has dried before reloading the paper.  Related tasks
+  Selecting Basic Print Settings - Windows"
+"1775041566-36","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000604-et2400?faq_cat=faq-8796127602764","How do I change the Power Off and Sleep Timer settings?","Follow the instructions below for your operating system.      Changing the Power Off and Sleep Timer Settings - Windows  You can use the printer software to change the time period before the printer enters sleep mode or turns off automatically.    Access the Windows Desktop and right-click the  icon for your product in the right side of the Windows taskbar, or click the up arrow and right-click . Select Printer Settings and click the Maintenance tab.    Click the Printer and Option Information button. You see this window:
+  
+    Select the time period you want as the Power Off Timer setting.    Note: Your product may have the Power Off Timer feature or Power Off If Inactive and Power Off If Disconnected features depending on the location of purchase.      Click Send.    Select the time period you want as the Sleep Timer setting.    Click Send.    Click OK to close the open program windows.        Changing the Power Off and Sleep Timer Settings - Mac  You can use the printer software to change the time period before the printer enters sleep mode or turns off automatically.    In the Apple menu or the Dock, select System Preferences. Select Print & Fax, Print & Scan, or Printers & Scanners, select your product, and select Options & Supplies. Select Utility and select Open Printer Utility.    Select Printer Settings. You see this screen:
+  
+    Select the time period you want as the Power Off Timer setting.    Note: Your product may have the Power Off Timer feature or Power Off If Inactive and Power Off If Disconnected features depending on the location of purchase.      Select the time period you want as the Sleep Timer setting.    Click Apply.    If you see the confirmation message, click Yes, and close the Printer Settings window."
+"1775041571-37","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00005f3-et2400?faq_cat=faq-8796127602764","How do I uninstall the Epson printer and scanning software in Windows or on my Mac?","Follow the instructions below for your operating system.      Uninstalling Product Software - Windows  You can uninstall and then re-install your product software to solve certain problems.    Turn off the product.    Disconnect any interface cables.    Do one of the following:      Windows 11: Click , then search for Settings and select it. Select Apps or System > Apps & features. Then select the program you want to uninstall and select Uninstall.      Windows 10: Click  and select  (Settings) > Apps or System > Apps & features. Then select the program you want to uninstall and select Uninstall.      Windows 8.x: Navigate to the Apps screen and select Control Panel > Programs > Programs and Features. Select the uninstall option for your Epson product, then select Uninstall/Change.    Note: If you see a User Account Control window, click Yes or Continue.  Select your product again, if necessary, then select OK, and click Yes to confirm the uninstallation.      Windows (other versions): Click  or Start, and select All Programs or Programs. Select EPSON, select your product, then click EPSON Printer Software Uninstall.    Note: If you see a User Account Control window, click Yes or Continue.  In the next window, select your product and click OK. Then follow any on-screen instructions.        Do one of the following to uninstall Epson Event Manager, then follow any on-screen instructions:      Windows 11/Windows 10/8.x: Select Epson Event Manager and click Uninstall.      Windows 7/Windows Vista: Open the Windows Control Panel utility. Select Programs and Features. (In Classic view, select Programs and click Uninstall a program.) Select Epson Event Manager and click Uninstall/Change.        Do one of the following to uninstall Epson Scan 2, then follow any on-screen instructions:      Windows 11/Windows 10: Select Epson Scan 2 and click Uninstall.      Windows 8.x/Windows 7/Windows Vista: Select Epson Scan 2 and click Uninstall/Change.        Do one of the following to uninstall Epson ScanSmart, then follow any on-screen instructions:      Windows 11/Windows 10: Select Epson ScanSmart and click Uninstall.      Windows 8.x/Windows 7/Windows Vista: Select Epson ScanSmart and click Uninstall/Change.        Restart your computer, then see the Start Here sheet to re-install your software.        Note: If you find that re-installing your product software does not solve a problem, contact Epson.      Uninstalling Product Software - Mac  In most cases, you do not need to uninstall your product software before re-installing it. However, you can download the Uninstaller utility from the Epson support website to uninstall your product software as described here.    Note: If you find that re-installing your product software does not solve a problem, contact Epson.      To download the Uninstaller utility, visit and select your product.    Click Downloads.    Select your operating system, click Utilities, locate the Uninstaller utility, and click Download.    Run the file you downloaded.    Double-click the Uninstaller icon.    In the Epson Uninstaller screen, select the checkbox for each software program you want to uninstall.    Click Uninstall.    Follow the on-screen instructions to uninstall the software.    Reinstall your product software.        Note: If you uninstall the printer driver and your product name remains in the Print & Fax, Print & Scan, or Printers & Scanners window, select your product name and click the – (remove) icon to remove it."
+"1775041574-38","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004c7-shared?faq_cat=faq-8796127602764","I can't get Epson Status Monitor to work over my wireless network. What should I do?","If the product is not shared, make sure it is connected to the network wirelessly. Try moving your product or computer to a different location within range of your wireless network. Avoid placing the computer, product, or wireless access point near microwaves, cordless telephones, or other sources of wireless interference.      If the product is set up as a shared printer, Epson Status Monitor will not work and is not supported."
+"1775041577-39","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000cae-shared?faq_cat=faq-8796127602764","How do I turn off the pop-up messages from Epson Event Manager in Windows 10?","You can use the Action center or your System settings to turn off the pop-up message. Follow the steps below for the option you want to use to turn off the message:      Action center      Select the Action center icon, located in the lower right corner of your screen.    Note: Notifications may say Scanner is disconnected or Scanner is Available.      Right-click the notifications icon and select Turn off notifications for Epson Event Manager.        System settings      The pop-up message can also be disabled in your system settings. Do the following:      Click  and select  (Settings) > System > Notifications & actions.    Scroll down to locate Epson Event Manager.    Turn off the switch for Epson Event Manager."
+"1775041580-40","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-0000525-shared?faq_cat=faq-8796127602764","What are the port numbers for Epson network printers (wired and wireless)?","See the table below.      Note: Not all operations are supported by all products.            Service name      Protocol type      Local/Remote port number      Controls these operations            ENPC      UDP      3289/Any port      Searching for a product from applications such as printer or scanner drivers, or EpsonNet Config          SNMP      UDP      161/Any port      Acquiring and configuring MIB from applications such as printer or scanner drivers, or EpsonNet Config          LPR      TCP      515/Any port      Forwarding LPR data          RAW (Port9100)      TCP      9100/any port      Forwarding RAW data          IPP/IPPS      TCP      631/Any port      Forwarding AirPrint data (IPP/IPPS printing)          WSD      TCP      Any port/5357      Controlling WSD          WS-Discovery      UDP      3702/Any port      Searching for a product from WSD          Network Scan      TCP      1865/Any port      Forwarding scan data from Document Capture Pro and Document Capture          Network Push Scan      TCP      Any port/2968      Acquiring job information on push scanning from Document Capture Pro and Document Capture          Network Push Scan Discovery      UDP      2968/Any port      Searching for a computer during push scanning from Document Capture Pro and Document Capture          FTP Data (Local)      TCP      20/Any port      Forwarding FTP printing data to FTP server          FTP Control (Local)      TCP      21/Any port      Controlling FTP printing to FTP server          FTP Data (Remote)      TCP      Any port/20      Forwarding scan data and received fax data to FTP client; controls only an FTP server that uses remote port 20          FTP Control (Remote)      TCP      Any port/21      Forwarding scan data and received fax data to FTP client          CIFS (Local)*      TCP      445/Any port      Sharing a network folder on CIFS server          CIFS (Remote)*      TCP      Any port/445      Forwarding scan data and received fax data to a folder on CIFS server          NetBIOS Name Service (Local)      UDP      137/Any port      Sharing a network folder on CIFS server          NetBIOS Datagram Service (local)      UDP      138/Any port          NetBIOS Session Service (Local)      TCP      139/Any port          NetBIOS Name Service (Remote)      UDP      Any port/137      Forwarding scan data and received fax to a folder on CIFS server          NetBIOS Datagram Service (Remote)      UDP      Any port/138          NetBIOS Service (Remote)      TCP      Any port/139          HTTP (Local)      TCP      80/Any port      Forwarding Web Config and WSD data to a HTTP or HTTPS server          HTTPS (Local)      TCP      443/Any port          HTTP (Remote)      TCP      Any port/80      Communicating with Epson Connect or Chromebook Native Printing, firmware update, and root certificate update on a HTTP or HTTPS client          HTTPS (Remote)      TCP      Any port/443          * To control forwarding of scan and received fax data, share a network folder, or receive fax data from PC-Fax, select Port Number as the Method of Choosing Port option and specify the port numbers for CIFS and NetBIOS."
+"1775041583-41","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004fc-shared?faq_cat=faq-8796127602764","How do I obtain the latest product software for Windows or my Mac?","The following options are available:      You can use Epson Software Updater (which is installed the first time you install the printer driver) to notify you when new updates are available for download. Software Updater analyzes the Epson software (drivers, utilities, firmware, etc.) installed on your computer and product, and notifies you if new updates are available for download.    If you already installed a Windows printer driver, you can update the driver by selecting Software Update on the Maintenance tab in the printer driver settings window.    You can download the software from the Downloads tab on your product's support page."
+"1775041586-42","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004dc-shared?faq_cat=faq-8796127602764","Does Epson make drivers for Linux?","Linux drivers are available for some products. Visit the links below to see the drivers available for your product, as well as information about using an Epson product with Linux.      Note: Epson does not provide support for Linux drivers.        Linux drivers for Epson products      Linux FAQs for Epson products(only available in English)      Linux manuals for Epson products(only available in English)"
+"1775041589-43","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004db-shared?faq_cat=faq-8796127602764","Who do I contact for software support?","Click on the Contact Us tab on your product's support page to contact Epson for support. If your product comes with third-party software, contact the software company."
+"1775041592-44","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004c0-shared?faq_cat=faq-8796127602764","Where can I find the IP address of my router?","Most wireless routers have a default IP address that can usually be found in the router's documentation.      For more support on your router, contact the manufacturer of your router.      You can also print a network status sheet from your printer's control panel to find your router's IP address.      Note: The network status sheet will list your router’s IP address only if you have set up your printer with a network connection to the router. If you print a network status sheet before setup, the router's IP address will not be listed on the network status sheet."
+"1775041595-45","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004b7-shared?faq_cat=faq-8796127602764","How do I change the font size of text when I print from software in Windows?","You need to select the text or font size in the software you are printing from, not the printer driver. For detailed instructions, contact the company for the application you are printing from."
+"1775041599-46","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127602764","https://epson.com/faq/SPT_C11CJ67201~faq-00004ba-shared?faq_cat=faq-8796127602764","How do I add my product as an IP printer on my Mac?","Do the following:      Open the  menu, select System Preferences or System Settings, and then select Print & Fax, Print & Scan, or Printers & Scanners.    Select your printer, if necessary.    Click + or Add Printer, Scanner, or Fax and select IP on the toolbar.    Select a protocol. If you do not know which protocol to choose, leave it as Line Printer Daemon-LPD.    Click the Address field and enter your printer's IP address. You see the message Gathering printer information as your Mac connects to the printer.    Click Add after your printer appears in the Use field to create a printer queue. If your printer does not appear in the Use field, select Auto Select from the drop-down box."
+"1775041606-47","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000506-et2400?faq_cat=faq-8796127569996","I am unable to scan multiple images at once. What should I do?","Try the following:      Make sure you position photos at least 0.2 inch (4.5 mm) away from the edge of the scanner glass and at least 0.8 inch (20 mm) away from each other.    Note: The edges of your original may be cropped by 0.06 inch (1.5 mm) from the edge of the scanner glass. Manually position your original away from the edges to prevent cropping.      Caution:
+  Do not push down on the document cover or scanner glass, or you may damage the product.      Make sure the scanner glass is clean. Clean the scanner glass with a soft, lint-free cloth (microfiber is recommended), moistened with a little glass cleaner. Paper towels are not recommended.    Caution:
+  Do not spray glass cleaner directly on the glass, and do not press the glass surface with any force."
+"1775041611-48","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-00004d8-et2400?faq_cat=faq-8796127569996","The quality of an image I scanned with Epson Scan 2 is poor. What should I do?","See the links below for solutions to your problem type.  Related tasks
+  Resetting the Epson Scan 2 Settings
+  Related references
+  Characters are Not Recognized During Conversion to Editable Text (OCR)
+  Image Colors are Patchy at the Edges
+  Image Consists of a Few Dots Only
+  Line of Dots Appears in All Scanned Images
+  Ripple Patterns Appear in an Image
+  Scanned Image Quality Problems
+  Scanned Image Edges are Cropped
+  Straight Lines in an Image Appear Crooked"
+"1775041614-49","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-00004d7-et2400?faq_cat=faq-8796127569996","I see a blank Scanner Settings window when I start Epson Scan 2. What should I do?","Close the Scanner Settings window and follow the steps below for your connection type.      USB Connection      Make sure you restarted your computer after installing the product software.    Turn off your product, and then turn it back on.    Make sure your product is connected to your computer or USB hub. Start Epson Scan 2. If you see your product in the Scanner Settings window, the problem is solved. If you see a blank Scanner Settings window, close the window and go to the next step.    Note: If your product is connected to a USB hub, make sure the hub has its own power source.      Do one of the following:    If your product is connected to a USB hub, connect the USB cable directly to your computer instead. Start Epson Scan 2. If you see your product in the Scanner Settings window, the problem is solved. If you see a blank Scanner Settings window, close the window and go to the next step.    If your product is not connected to a USB hub, go to the next step.            Wireless Connection      Make sure your product is connected to the same network as your computer and start the Epson Scan 2 Utility. The Scanner Settings window appears again.    Click Enable Editing (Windows) or  (Mac) and click Yes on the screen that appears. If necessary, enter your computer's administrator password and click OK.    Note: If you do not see the Enable Editing button, run the Epson Scan 2 Utility as the administrator. Navigate to the shortcut for the Epson Scan 2 Utility, right-click the shortcut, and then click Run as administrator.      Click Add or click the + button. Make sure your product is selected as the Model in the screen that appears.
+  
+    Select the IP address for your product.    Note: If nothing appears in the Search for Network box, make sure your product is connected to the same network as your computer. If your product is connected to the same network and the box is still blank, contact Epson Support.      Click Add. Your product appears in the Scanner Settings window.
+  
+    Click OK."
+"1775041618-50","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000606-et2400?faq_cat=faq-8796127569996","I can't start Epson Scan 2. What should I do?","If you cannot start Epson Scan 2, try these solutions:      Make sure your product is turned on and any interface cables are securely connected at both ends.    If your product is connected to a USB hub, connect it directly to your computer instead.    Make sure Epson Scan 2 is selected as your scanning program.    Make sure your computer is not running in a power-saving mode, such as sleep or standby. If so, wake your system and restart Epson Scan 2.    Check the connection setting and test the connection using Epson Scan 2 Utility:    Windows 11: Click , search for Epson Scan 2 Utility and select it. Make sure the correct product is selected. If necessary, select the Other tab and click Reset.      Windows 10: Click  and select EPSON > Epson Scan 2 Utility. Make sure the correct product is selected. If necessary, select the Other tab and click Reset.      Windows 8.x: Navigate to the Apps screen and select Epson Scan 2 Utility. Make sure the correct product is selected. If necessary, select the Other tab and click Reset.      Windows (other versions): Click  or Start > All Programs or Programs > EPSON > Epson Scan 2 > Epson Scan 2 Utility. Make sure the correct product is selected. If necessary, select the Other tab and click Reset.      Mac: Open the Applications folder, click Epson Software, and click Epson Scan 2 Utility. Make sure the correct product is selected. If necessary, select the Other tab and click Reset.      Make sure you do not have multiple versions of Epson Scan 2 installed. If you do, uninstall both versions and install one version.    If you upgraded your operating system but did not reinstall Epson Scan 2, try reinstalling it.    Related concepts
+  Uninstall Your Product Software
+  Related information
+  Starting a Scan"
+"1775041621-51","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000681-et2400?faq_cat=faq-8796127569996","How do I print a scanned image and save the file to my computer with Epson ScanSmart?","Open Epson ScanSmart and follow the instructions below.      Printing a Scan  You can print your scanned image and save the scanned file to your computer.    Note: Printing scanned images is available only with Epson printers. If you do not have an Epson printer, save the file and print it from an application that can open the file.      Make sure your originals are scanned and reviewed. See the link below.    In the Select Action window, click Print. You see a screen like this:
+  
+    Change the settings as follows:    Select the Epson printer and change the print settings, if necessary.    Select the number of copies you want to print.    If you also want to save a copy of the scanned image to your computer, click the checkbox.    The document type and scan date for the file name are automatically detected. You can change them as necessary.    You can save the scanned image in a variety of formats. If you select Searchable PDF as the File type setting, you can select the OCR (Optical Character Recognition) language.    Select the folder on your computer in which to save the file.        Click Print.    Related tasks
+  Scanning a Document or Photo in Epson ScanSmart"
+"1775041624-52","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000680-et2400?faq_cat=faq-8796127569996","How do I attach a scanned image to an email with Epson ScanSmart?","Open Epson ScanSmart and follow the instructions below.      Attaching a Scan to Email  You can attach a scanned image to an email as a file attachment.    Note: Your email app and account settings should be configured before scanning. You must install a MAPI-type email program such as Outlook Express, Windows Live Mail, Entourage, or Mac Mail. Attach to Email only supports 32-bit MAPI-compatible mail apps. Web-based email services such as Gmail are not supported. If you see an error message, your email app may not be compatible and you will need to save the scans and manually attach the file to an email.      Make sure your originals are scanned and reviewed. See the link below.    In the Select Action window, click Attach to Email. You see a screen like this:
+  
+    Change the settings as follows:    The document type and scan date for the file name are automatically detected. You can change them as necessary.    You can save the scanned image in a variety of formats. If you select Searchable PDF as the File type setting, you can select the OCR (Optical Character Recognition) language.    If you also want to save a copy of the scanned image to your computer, make sure the checkbox is selected and select the folder on your computer in which to save the file.        Click Attach to E-mail. Your email program opens with the file attached to a new email.    Related tasks
+  Scanning a Document or Photo in Epson ScanSmart"
+"1775041627-53","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000682-et2400?faq_cat=faq-8796127569996","How do I change the scan settings in Epson ScanSmart?","Open Epson ScanSmart and follow the instructions below.      Changing the Scan Settings  You can change detailed scan settings such as the resolution, document size, and more.    Note: If you select Auto Mode, you cannot change the scan settings.      Click the Settings button. You see a screen like this:
+  
+    Do one of the following:    To change Document Mode settings, select Document Mode > Custom Settings.    To change Photo Mode settings, select Photo Mode and click Close. When you start a scan, you will be prompted to select scan settings.    You see a screen like this:
+  
+    Change the settings as necessary and click Save."
+"1775041630-54","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000c70-et2400?faq_cat=faq-8796127569996","Scanning is slow when I scan with Epson ScanSmart. What should I do?","If scanning becomes slow, try these solutions:      Scan your original at a lower resolution, if possible.    Make sure your system meets the requirements for your operating system. If you are scanning a high-resolution image, you may need more than the minimum requirements. If necessary, increase your system's memory or reduce the resolution.    In Epson Scan 2, open the Configuration screen and turn off Quiet Mode on the Scan tab."
+"1775041633-55","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000a29-et2400?faq_cat=faq-8796127569996","How do I scan from a smart device?","You can use the Epson Smart Panel app to scan from a network scanner to an iOS or Android device over a direct Wi-Fi connection.    Download the Epson Smart Panel app from your device's app store or from Epson's website. See the link below.    Place your original on the product for scanning.    Open the Epson Smart Panel app and select a scan menu on the home screen.    Follow the on-screen instructions to scan and save your original.    Related tasks
+  Using the Epson Smart Panel Mobile App"
+"1775041637-56","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-0000a28-et2400?faq_cat=faq-8796127569996","I cannot scan over a network. What should I do?","If you have problems scanning over a network, try these solutions:      Make sure you are scanning from a computer. If you want to scan from your product control panel, you must connect the product to your computer with a USB cable.    Check the scanning setting assigned in Epson Event Manager.    If you are scanning a large original at a high resolution, a network communication error may occur. Try scanning again at a lower resolution.    If network communication was interrupted while starting Epson Scan 2, exit Epson Scan 2, wait a few seconds, and restart it. If Epson Scan 2 cannot restart, turn off your product, turn it back on, and try restarting Epson Scan 2 again.    Check the scanner setting and reset the connection if necessary using Epson Scan 2 Utility:    Windows 11: Click , then search for Epson Scan 2 Utility and select it. Make sure your product is selected. If necessary, select the Other tab and click Reset.      Windows 10: Click  and select EPSON > Epson Scan 2 Utility. Make sure your product is selected. If necessary, select the Other tab and click Reset.      Windows 8.x: Navigate to the Apps screen, select EPSON, and select Epson Scan 2 Utility. Make sure your product is selected. If necessary, select the Other tab and click Reset.      Windows (other versions): Click  or Start > All Programs or Programs > EPSON > Epson Scan 2 > Epson Scan 2 Utility. Make sure your product is selected. If necessary, select the Other tab and click Reset.      Mac: Open the Applications folder, click Epson Software, and click Epson Scan 2 Utility. Make sure your product is selected. If necessary, select the Other tab and click Reset.      You may need to disable the firewall and any anti-virus software on your wireless router or access point.    Related information
+  Wi-Fi Networking
+  Starting a Scan"
+"1775041639-57","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-000048f-et2400?faq_cat=faq-8796127569996","My scanning software doesn't work properly in Windows or on my Mac. What should I do?","If your scanning software does not operate correctly, try these solutions:      Make sure your computer has adequate memory and meets the system requirements for your operating system.    Make sure your computer is not running in a power-saving mode, such as sleep or standby. If so, wake your system and restart your scanning software.    If you upgraded your operating system but did not reinstall your scanning software, try reinstalling it.    In Windows, make sure your product is listed as a valid device in the Scanners and Cameras control panel.    Try scanning at a lower resolution or increase the free space on the computer's hard disk. Scanning stops if the total data size reaches the limit.    Use the Epson Scan 2 Utility on your computer to reset the scanner software settings. If resetting the settings does not solve the problem, uninstall and reinstall the scanner software."
+"1775041642-58","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-000067e-et2400?faq_cat=faq-8796127569996","How do I scan a document with Epson ScanSmart?","You can scan and review documents and photos in Epson ScanSmart.    Note: The images in this guide show Windows screens. Mac screens may be slightly different. Depending on your product model and software version, not all options may be available.      Place your original on the product for scanning.    Open Epson ScanSmart on your computer. Do one of the following:      Windows 11: Click , then search for Epson ScanSmart and select it.      Windows 10: Click  > Epson Software > Epson ScanSmart.      Windows 8.x: Navigate to the Apps screen and select Epson ScanSmart.      Windows (other versions): Click  or Start, and select All Programs or Programs. Select Epson Software > Epson ScanSmart.      Mac: Open the Applications folder, open the Epson Software folder, and select Epson ScanSmart.    You see a screen like this:  
+  
+        Select an option for the Scan area setting, if necessary.    Note: The Scan area setting limits the scan area to a selected size starting at the placement arrow on the scanner bed. It does not scale the image to the selected size.      Select SCAN. The original is scanned. When scanning is complete, you see a screen like this:
+  
+    Note: To change between document or photo editing options, select Change Mode.      In Document Editing Mode, you can review, edit, or reorder the scanned images as follows:    Select + Scan to scan more originals.    Select Delete to delete selected scanned images.    Select Rotate Right to rotate each scanned image.    Select Crop to crop the selected image.    Control-click two images, select Stitch Images, and follow the on-screen instructions to combine them into a single image.        In Photo Editing Mode, the following enhancement options are available:      Auto Color Enhancement: automatically adjusts the brightness, contrast, and saturation of your photos      Restore Faded Colors: restores the colors in faded photos automatically      Remove Red Eye: automatically removes the red-eye effect from your photos      Auto Cropping: automatically crops the scanned image edges        When you finish reviewing and editing the scanned images, click Next. You see a screen like this:
+  
+    Select an option to save, send, or print the scanned images. See the links below.    Related tasks
+  Saving a Scan
+  Attaching a Scan to Email
+  Sending a Scan to a Cloud Service
+  Printing a Scan"
+"1775041645-59","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-00005f5-et2400?faq_cat=faq-8796127569996","How do I scan to a SharePoint server or cloud service?","You can upload scanned images to a cloud service.    Make sure your originals are scanned and reviewed. See the link below.    In the Select Action window, click one of the cloud service send options. You see a screen like this:
+  
+    Log in to your account.    Note: You may need to allow Epson ScanSmart access to your account. The first time you log in, you may be prompted to enter an authentication code.      Change the settings as follows:    Select the folder in your account where you want to send the document.    The document type and scan date for the file name are automatically detected. You can change them as necessary.    You can save the scanned image in a variety of formats. If you select Searchable PDF as the File type setting, you can select the OCR (Optical Character Recognition) language.    If you also want to save a copy of the scanned image to your computer, click the checkbox.        Click Send.    Related tasks
+  Scanning a Document or Photo in Epson ScanSmart"
+"1775041648-60","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-00009d0-shared?faq_cat=faq-8796127569996","How do I decide which resolution to select when I scan from Epson Scan 2?","Use the guidelines below to select the resolution setting based on how you will use the scanned image.        E-mail/view on a computer screen/post on the web: 96 to 200 dpi      Print/Fax/Convert to editable text (OCR)/create searchable PDF: 200 to 300 dpi        Note: Higher resolution settings result in larger file sizes. For example, an 8.5 × 11-inch original scanned at 300 dpi can produce a 24MB file. The same original scanned at 72 dpi produces a 1.3MB file. Large files take longer to process and print, so consider the practical limitations of your computer system when selecting a resolution. To keep your file size manageable, select the lowest possible resolution that gives acceptable quality."
+"1775041652-61","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-00009cf-shared?faq_cat=faq-8796127569996","How do I enlarge an image I scanned with Epson Scan 2?","You can enlarge your image in third-party image-editing software. To create a high-quality image, increase the Resolution setting of your scan by the amount that you want to increase the image size. For example, if you plan to double the size of a 300 dpi image, select 600 dpi as the Resolution setting in Epson Scan 2. Open the image in image-editing software, double the size of the image, and set the print resolution to 300 dpi."
+"1775041655-62","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-00004c9-shared?faq_cat=faq-8796127569996","Scanning is slow to start when I select the Scan to Network Folder/FTP option on my product's control panel. What should I do?","To speed up scanning, use the computer or server's IP address (instead of the host name) in the location of the folder. Then try scanning again.      Example: \\123.456.7.890\network_folder"
+"1775041658-63","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127569996","https://epson.com/faq/SPT_C11CJ67201~faq-00004cd-shared?faq_cat=faq-8796127569996","Can I scan from the product's control panel to my computer?","This is not an option on your product."
+"1775041664-64","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-0000db1-et2400?faq_cat=faq-8796127537228","The photos I print on glossy photo paper smear after they are printed. What should I do?","To avoid smearing your photos, do not touch the printed side until the ink is completely dry. When printing on glossy photo papers, ink drying times increase considerably (humidity, temperature, and other environmental conditions can affect photo drying times). Moisture and oils from your skin can also affect print quality, so avoid rubbing or scratching the surface of your photos even after they dry.      Note: Try removing each sheet from the output tray as it is printed and do not touch the printed side until the ink is completely dry."
+"1775041668-65","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-0000491-et2400?faq_cat=faq-8796127537228","My product is printing blank pages. What should I do?","Several factors may cause the product to print blank pages, such as print settings, low ink, or the product itself.
+Check the following:
+
+	Make sure the product is placed on a flat, stable surface that extends beyond the base in all directions. The product won't operate properly if it's tilted or at an angle.
+	Make sure you're using paper that meets the product's specifications.
+	Print a nozzle check pattern to see if any of the nozzles are clogged. Clean the print head, if necessary.
+	 Follow the instructions in our Windows or Mac how-to video.
+	Make sure the paper size, orientation, and layout settings in your printer software are correct.
+	Make sure your document does not contain blank pages. If your printer software has a Preview option, you can check for blank pages before you print and remove them, if necessary.
+	If you're printing from Windows or a Mac, you can select Skip Blank Page in your printer software. To select the setting, follow the steps below for your operating system.
+
+
+Windows
+
+ 
+
+
+	Do one of the following:
+	
+		Windows 11: Click , search for Settings and select it. Select Bluetooth & devices > Printers & scanners. Select your product name and select Printing preferences.
+		Windows 10: Click  and select  (Settings) > Devices > Printers & scanners. Select your printer and select Manage > Printing preferences.
+		Windows 8.x: Navigate to the Apps screen and select Control Panel > Hardware and Sound > Devices and Printers. Right-click your printer and select Printing Preferences.
+		Windows 7: Click  and select Devices and Printers. Right-click your printer and select Printing Preferences.
+		Windows Vista: Click  and select Control Panel (or point to Settings and select Control Panel). Select Printer (under Hardware and Sound) or Printers. Right-click your printer and select Printing Preferences.
+	
+	
+	Click the Maintenance tab and click the Extended Settings button.
+	Select Skip Blank Page.
+	Click OK as necessary to save your settings.
+
+
+Mac
+
+ 
+
+
+	Open the  menu and select System Preferences.
+	Select Print & Scan, Print & Fax, or Printers & Scanners, select your product, and then select Options & Supplies.
+	Select Driver or Options.
+	You see this screen:
+
+	
+	Set Skip Blank Page to On.
+	Click OK.
+
+Related concepts
+
+Print Head Nozzle Check
+
+Print Head Cleaning"
+"1775041671-66","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-0000a25-et2400?faq_cat=faq-8796127537228","The position, size, or margins of my copy are incorrect. What should I do?","If the position, size, or margins of your copies are incorrect, try these solutions:      When placing originals on the scanner glass, make sure the original is placed correctly for scanning. Align the corner of the original with the corner indicated by the symbol on the scanner glass. If necessary, move the original away from the edges of the scanner glass slightly.    Make sure the paper is loaded in the correct direction."
+"1775041674-67","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00007fb-et2400?faq_cat=faq-8796127537228","My printout looks inverted, as if viewed in a mirror. What should I do?","If your printed image is inverted unexpectedly, try these solutions:      Turn off any mirror or inversion settings in your printing application.    Turn off the Mirror Image, Flip horizontally, or Reverse page orientation settings in your printer software. (This option has different names, depending on your operating system version.)    Related tasks
+  Selecting Additional Layout and Print Options - Windows
+  Selecting Print Layout Options - Mac"
+"1775041676-68","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00007f7-et2400?faq_cat=faq-8796127537228","My printout contains incorrect characters. What should I do?","If incorrect characters appear in your prints, try these solutions before reprinting:      Make sure any cables are securely connected at both ends.    In Windows, delete all jobs from the Windows Spooler. Click Print Queue on the Maintenance tab in the printer settings window, and cancel any stalled print jobs.    If your product is connected to a USB hub, connect it directly to your computer instead.    If incorrect characters still appear in your prints, try connecting your product using a different cable.    If your computer entered sleep mode the last time you printed, the next print job after your computer exits sleep mode may contain garbled characters. Print your document again.    Make sure you are using the printer software for this product. Check the product name at the top of the driver window.    Related tasks
+  Selecting Basic Print Settings - Windows
+  Selecting Extended Settings - Windows"
+"1775041679-69","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00007f9-et2400?faq_cat=faq-8796127537228","My printout has incorrect colors. What should I do?","See our Windows or Mac how-to video or follow or the instructions below.
+If your printouts have incorrect colors, try these solutions:
+
+	Make sure the paper type setting matches the paper you loaded.
+	Make sure the Black/Grayscale or Grayscale setting is not selected in your printer software.
+	If you selected Standard-Vivid (Windows) or Normal-Vivid (Mac) as the quality setting in the printer software, try selecting Standard (Windows) or Normal (Mac) instead.
+	Run a nozzle check to see if any of the print head nozzles are clogged. Then clean the print head, if necessary.
+	The ink levels may be low and you may need to refill the ink. Visually check the ink levels.
+	After you print, the colors in your printout need time to set as the ink dries. During this time, the colors may look different than you expect. To speed up drying time, do not stack your printouts on top of each other.
+	Your printed colors can never exactly match your on-screen colors. However, you can use a color management system to get as close as possible. Try using the color management options in your printer software.
+	Select Custom as the Color Correction setting on the More Options tab of the printer software, then click Advanced. Try selecting a different Color Management setting.
+	For best results, use genuine Epson paper.
+	If you have not used the product for a long time, run the Power Cleaning utility.
+	Note: Power Cleaning consumes a lot of ink, so run this utility only if you cannot improve print quality by cleaning the print head.
+
+Related concepts
+
+Print Head Nozzle Check
+
+Print Head Cleaning
+
+Power Cleaning
+
+Related tasks
+
+Checking Ink Levels on Your Product
+
+Selecting Basic Print Settings - Windows
+
+Selecting Basic Print Settings - Mac
+
+Related references
+
+Paper or Media Type Settings
+
+Compatible Epson Papers
+
+Related information
+
+Refilling Ink"
+"1775041682-70","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00007fa-et2400?faq_cat=faq-8796127537228","My printout has incorrect margins. What should I do?","If your printed page has incorrect margins, try these solutions:      Make sure you selected the correct paper size settings in your printing program and printer software.    Make sure you selected the correct margins for your paper size in your printing program.    Make sure your paper is positioned correctly for feeding into the product.    When placing originals on the scanner glass, align the corner of the original with the corner indicated by the arrow. If the edges of the copy are cropped, move the original slightly away from the corner.    Clean the scanner glass and the document cover. If there is dust or stains on the glass, the copy area may extend to include the dust or stains.    Load paper in the correct direction and slide the edge guides against the edges of the paper.        You can use the preview option in your printer software to check your margins before you print.  Related tasks
+  Selecting Basic Print Settings - Windows
+  Selecting Basic Print Settings - Mac
+  Related references
+  Paper or Media Type Settings
+  Related information
+  Loading Paper"
+"1775041684-71","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00007f6-et2400?faq_cat=faq-8796127537228","My printout is blurry or smeared. What should I do?","See our Windows or Mac how-to video or follow or the instructions below.
+If your printouts are blurry or smeared, try these solutions:
+
+	Make sure your paper is not damp, curled, old, or loaded incorrectly in your product.
+	Slide the edge guides to the edges of the paper.
+	Use a support sheet with special paper, or load special paper one sheet at a time.
+	Make sure your paper meets the specifications for your product.
+	Use Epson papers to ensure proper saturation and absorption of genuine Epson inks.
+	Do not load more than the recommended number of sheets. For plain paper, do not load above the line indicated by the triangle symbol on the edge guide.
+	Make sure the paper type setting in your product software matches the type of paper you loaded.
+	Make sure you loaded the printable side of the paper correctly for your product.
+	If you are printing on thick paper or envelopes, make sure you select the appropriate settings. In Windows, you can also try selecting Short Grain Paper in Extended Settings.
+	When manually printing 2-sided, make sure the ink is completely dry before loading the paper.
+	Remove each sheet from the output tray as it is printed.
+	Avoid handling printouts on glossy paper right after printing to allow the ink to set.
+	When vertical banding appears or the paper is smeared, clean the paper path.
+	When horizontal banding appears or the top or bottom of the paper is smeared, load paper in the correct direction and slide the edge guides to the edges of the paper.
+	If you print on both sides of a sheet of paper, smudges may appear on the reverse side of heavily saturated or dark images. If one side of a sheet will contain a lighter image or text, print that side first. Adjust the density and/or ink drying time settings.
+	The ink levels may be low and you may need to refill the ink. Visually check the ink levels.
+	Run a nozzle check to see if any of the print head nozzles are clogged. Then clean the print head, if necessary.
+	Adjust the print quality in the product software.
+	Clean the paper path.
+	If you printed when the ink levels were too low to be seen in the ink tank windows, refill the ink tanks to the upper lines and run the Power Cleaning utility. Then run a nozzle check to see if print quality has improved.
+	If you have not used the product for a long time, run the Power Cleaning utility.
+	Note: Power Cleaning consumes a lot of ink, so run this utility only if you cannot improve print quality by cleaning the print head.
+
+
+Note: Your product will not operate properly while tilted at an angle. Place it on a flat, stable surface that extends beyond the base of the product in all directions.Related concepts
+
+Print Head Nozzle Check
+
+Print Head Cleaning
+
+Print Head Alignment
+
+Power Cleaning
+
+Related tasks
+
+Checking Ink Levels on Your Product
+
+Selecting Basic Print Settings - Windows
+
+Selecting Basic Print Settings - Mac
+
+Cleaning the Paper Path
+
+Related references
+
+Paper or Media Type Settings
+
+Compatible Epson Papers
+
+Related information
+
+Loading Paper
+
+Refilling Ink"
+"1775041687-72","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00007f8-et2400?faq_cat=faq-8796127537228","My printout is grainy when I print from any application. What should I do?","See our Windows or Mac how-to video or follow or the instructions below.
+If your printouts are grainy, try these solutions:
+
+	Make sure you loaded the printable side of the paper correctly for your product.
+	Select a higher print quality setting and turn off any high speed settings in your product software.
+	Run a nozzle check to see if any of the print head nozzles are clogged. Then clean the print head, if necessary.
+	Align the print head.
+	Adjust the print quality in the product software.
+	You may need to increase the image resolution or print a smaller size; see your software documentation.
+	Note: Images from the Internet may be low resolution and not result in a high quality printout.
+	If you enlarged the image size in an image-editing program, you need to increase the image resolution setting to retain a high image quality. Increase the image resolution by the same amount you increase the image size. For example, if the image resolution is 300 dpi (dots per inch) and you will double the image size for printing, change the resolution setting to 600 dpi.
+	Note: Higher resolution settings result in larger file sizes, which take longer to process and print. Consider the limitations of your computer system when selecting a resolution, and select the lowest possible resolution that produces acceptable quality to keep file sizes manageable.
+
+Related concepts
+
+Print Head Nozzle Check
+
+Print Head Cleaning
+
+Print Head Alignment
+
+Related tasks
+
+Selecting Basic Print Settings - Windows
+
+Selecting Basic Print Settings - Mac
+
+Related information
+
+Loading Paper"
+"1775041689-73","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00007f5-et2400?faq_cat=faq-8796127537228","My printout has a slight slant. What should I do?","If your printouts are slanted, try these solutions:      Make sure your paper meets the specifications for your product.    Do not load more than the recommended number of sheets.    Slide the edge guides against the edges of the paper.    Select a higher print quality setting in your printer software.    Turn off any high speed settings in your product software.    Align the print head.    Adjust the print quality.    Make sure the product is not printing while tilted or at an angle.    Related tasks
+  Selecting Basic Print Settings - Windows
+  Selecting Basic Print Settings - Mac
+  Related information
+  Loading Paper"
+"1775041693-74","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-000048e-et2400?faq_cat=faq-8796127537228","My printout has lines running through it. What should I do?","See our Windows or Mac how-to video or follow or the instructions below.
+If you notice white or dark lines in your prints (also called banding), try these solutions before you reprint:
+
+	Run a nozzle check to see if any of the print head nozzles are clogged. Then clean the print head, if necessary.
+	Make sure the paper type setting matches the type of paper you loaded.
+	Make sure you loaded the printable side of the paper correctly for your product.
+	Turn off any high speed settings in your product software.
+	Align the print head. If print quality does not improve after aligning the print head, disable the bidirectional (high speed) setting.
+	Adjust the print quality in the product software.
+	When horizontal banding appears or the top or bottom of the paper is smeared, load paper in the correct direction and slide the edge guides to the edges of the paper.
+	When vertical banding appears or the paper is smeared, clean the paper path.
+	You may need to refill the ink. Visually check the ink levels.
+	If you have not used the product for a long time, run the Power Cleaning utility.
+	Note: Power Cleaning consumes a lot of ink, so run this utility only if you cannot improve print quality by cleaning the print head.
+
+Related concepts
+
+Print Head Nozzle Check
+
+Print Head Cleaning
+
+Print Head Alignment
+
+Power Cleaning
+
+Related tasks
+
+Checking Ink Levels on Your Product
+
+Selecting Basic Print Settings - Windows
+
+Selecting Basic Print Settings - Mac
+
+Related references
+
+Paper or Media Type Settings
+
+Related information
+
+Loading Paper
+
+Refilling Ink"
+"1775041696-75","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00004b9-shared?faq_cat=faq-8796127537228","How do I reduce the appearance of red eyes in my photos?","Turn on the Fix Red-Eye setting in the printer software or from the product's control panel, if available for your product.        Note: Due to the complexity and nature of some photographs, not all images can be corrected. If the Fix Red-Eye setting does not fix the photo, you need to use a software application such as Adobe Photoshop or Adobe Elements to fix it."
+"1775041699-76","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127537228","https://epson.com/faq/SPT_C11CJ67201~faq-00004b8-shared?faq_cat=faq-8796127537228","Web pages don't print the way they appear on my monitor. What should I do?","The pages may not print correctly due to the web page design. Try the following:      Check for a Printer-friendly Version (or similarly named) option on the web page.    Change the page setup and paper size settings, and select the preview option in your browser to check the changes before you print."
+"1775041706-77","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127504460","https://epson.com/faq/SPT_C11CJ67201~faq-00004f4-et2400?faq_cat=faq-8796127504460","How do I create a custom paper size for my product in Windows?","Do the following:        Open a photo or document for printing.    Select the print command in your application.    Note: You may need to select a print icon on your screen, the Print option in the File menu, or another command. See your application's help utility for details.      If necessary, select your product name as the printer you want to use.    Note: You may also need to select Properties or Preferences to view your print settings.      You see the Main tab of your printer settings window:       Select User-Defined in the Document Size drop-down list. The User-Defined Paper Size window appears.    Note: If your product has multiple Paper Sources, the User-Defined option may not be available for every Paper Source.      Enter a Paper Size Name and select the Paper Width and Paper Height.    Click Save and OK.    Click OK again. The new size is created, and you can select it from the Document Size drop-down list."
+"1775041709-78","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127504460","https://epson.com/faq/SPT_C11CJ67201~faq-00004f2-et2400?faq_cat=faq-8796127504460","Which type of paper can I print on?","You can use plain paper; however, for the best results, you'll want to use one of Epson's special inkjet papers.      Compatible Epson Papers      You can purchase genuine Epson ink and paper at epson.com (U.S. sales) or epson.ca (Canadian sales). You can also purchase supplies from an Epson authorized reseller. To find the nearest one, call 800-GO-EPSON (800-463-7766) in the U.S. or 800-807-7766 in Canada.            Paper Type      Size      Part number      Sheet count              Epson Bright White Premium Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S450218-4      500            Epson Bright White Pro Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S041586      500            Epson Multipurpose Plus Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S450217-4      500            Epson EcoTank Premium Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S041586-ET      500          Epson High Quality Ink Jet Paper      A4 (8.3 × 11.7 inches [210 × 297 mm])      S041117      100          Letter (8.5 × 11 inches [216 × 279 mm])      S041111      100          Epson Photo Paper Glossy      4 × 6 inches (102 × 152 mm)      S041809    S042038        50    100              A4 (8.3 × 11.7 inches [210 × 297 mm])        S041140      20          Letter (8.5 × 11 inches [216 × 279 mm])      S041141      20          Epson Premium Photo Paper Glossy      4 × 6 inches (102 × 152 mm)      S041727      100          5 × 7 inches (127 × 178 mm)      S041464      20          8 × 10 inches (203 × 254 mm)      S041465      20          Letter (8.5 × 11 inches [216 × 279 mm])        S041667          50            Epson Ultra Premium Photo Paper Glossy      4 × 6 inches (102 × 152 mm)      S042181    S042174        60    100            5 × 7 inches (127 × 178 mm)      S041945      20          8 × 10 inches (203 × 254 mm)      S041946      20          Letter (8.5 × 11 inches [216 × 279 mm])      S042182    S042175        25    50            Epson Premium Photo Paper Semi-gloss      4 × 6 inches (102 × 152 mm)      S041982      40          Letter (8.5 × 11 inches [216 × 279 mm])      S041331      20          Epson Presentation Paper Matte      Letter (8.5 × 11 inches [216 × 279 mm])      S041062      100          Epson Premium Presentation Paper Matte      8 × 10 inches (203 × 254 mm)      S041467      50          Letter (8.5 × 11 inches [216 × 279 mm])      S041257      50          Epson Premium Presentation Paper Matte Double-sided      Letter (8.5 × 11 inches [216 × 279 mm])      S041568      50          Epson Value Photo Paper Glossy      Letter (8.5 × 11 inches [216 × 279 mm])      S400031      50            4 × 6 inches (102 × 152 mm)        S400032    S400033      S400034        20    50      100"
+"1775041712-79","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127504460","https://epson.com/faq/SPT_C11CJ67201~faq-00007ff-et2400?faq_cat=faq-8796127504460","How do I know which paper or media type to select in my product's driver?","See the table below.      Paper or Media Type Settings            For this paper      Select this paper Type or Media Type setting            Plain paper    Copy paper      Epson Presentation Paper Matte      Epson Bright White Premium Paper      Epson Bright White Pro Paper      Epson Multipurpose Plus Paper      Epson EcoTank Premium Paper        Plain Paper / Bright White Paper          Epson Ultra Premium Photo Paper Glossy      Ultra Premium Photo Paper Glossy          Epson Premium Photo Paper Glossy      Premium Photo Paper Glossy          Epson Photo Paper Glossy    Epson Value Photo Paper Glossy        Photo Paper Glossy          Epson Premium Photo Paper Semi-gloss      Premium Photo Paper Semi-Gloss          Epson Premium Presentation Paper Matte    Epson Premium Presentation Paper Matte Double-sided        Premium Presentation Paper Matte          Envelopes      Envelope"
+"1775041715-80","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127504460","https://epson.com/faq/SPT_C11CJ67201~faq-00007f4-et2400?faq_cat=faq-8796127504460","How should I load envelopes?","You can print documents and photos on a variety of paper types and sizes.    Flip the feeder guard forward, then raise the paper support.
+  
+    Slide the edge guides out all the way.
+  
+    Pull out the output tray and open the paper stopper.
+  
+    If you are inserting a stack of paper, fan the sheets first and tap the stack on a flat surface to even the edges.
+  
+    Note: Do not fan or curl photo paper.      Do one of the following:    Insert paper, glossy or printable side up and short edge first, in the center of the paper support.
+  
+    Load up to 10 envelopes in the center of the paper support. Load them printable side up and flap edge left.
+  
+    Load a sheet of loose-leaf or other paper with holes facing as shown.
+  
+    To load a sheet of paper longer than legal size, close the paper support and flatten the leading edge of the paper as shown.
+  
+        Slide the edge guides against the paper, but not too tightly. Then flip the feeder guard back.
+  
+    Always follow these paper loading guidelines:    Load only the recommended number of sheets.    Load paper short edge first, no matter which way your document faces.    Load letterhead or pre-printed paper top edge first.    Do not load paper above the arrow mark inside the edge guide.    If you have trouble loading a stack of envelopes, press each envelope flat before loading it or load one envelope at a time.    Do not load envelopes that are curled, folded, or too thin, or that have plastic windows or exposed adhesive flaps.    Check the paper package for any additional loading instructions.    Do not place objects on the feeder guard. Doing so may prevent paper from feeding.    Do not leave paper in the printer as the paper may curl or the print quality may decline.    If you use paper with binder holes, load only one sheet at a time in only these sizes: Letter (8.5 × 11 inches [216 × 279 mm]), A4 (8.3 × 11.7 inches [210 × 297 mm]), or Legal (8.5 × 14 inches [216 × 356 mm]).    Related references
+  Paper Loading Capacity
+  Paper Specifications"
+"1775041718-81","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127504460","https://epson.com/faq/SPT_C11CJ67201~faq-00005f1-et2400?faq_cat=faq-8796127504460","I'm having paper feed problems. What should I do?","If you have problems feeding paper, try these solutions:      Place the product on a flat surface.    If paper does not feed for printing, remove it. Then reload it in the middle of the rear paper feed. Slide the edge guide against the edge of the paper, making sure that the paper stack is not above the arrow mark on the edge guide.    If multiple pages feed at once, remove the paper, fan the edges to separate the sheets, and reload it.    If multiple pages feed at once during manual 2-sided printing, remove any paper from the product before reloading paper.    If paper jams when you load only one or two sheets, try loading more sheets at a time. Do not load more than the recommended number of sheets.    Do not load more than the recommended number of sheets.    If paper jams when you print on both sides of the paper, try loading fewer sheets.    Make sure your paper meets the specifications for your product.    Try cleaning the paper path.    Do not place objects on the feeder guard.    For best results, follow these guidelines:    Use new, smooth, high-quality paper that is not curled, creased, old, too thin, or too thick.    Load paper in the rear paper feed printable side up.    Follow any special loading instructions that came with the paper.        Related tasks
+  Loading Paper in the Sheet Feeder
+  Related references
+  Paper Loading Capacity
+  Paper Jam Problems"
+"1775041720-82","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127504460","https://epson.com/faq/SPT_C11CJ67201~faq-000048c-et2400?faq_cat=faq-8796127504460","Does the type of paper I use make a difference?","The type of paper you choose affects the way your printout looks, so be sure to select the correct paper for your print job. If you are just making a copy or printing a rough draft of an image, plain paper is fine. However, for the best results, use one of Epson's special ink jet papers.      Compatible Epson Papers      You can purchase genuine Epson ink and paper at epson.com (U.S. sales) or epson.ca (Canadian sales). You can also purchase supplies from an Epson authorized reseller. To find the nearest one, call 800-GO-EPSON (800-463-7766) in the U.S. or 800-807-7766 in Canada.            Paper Type      Size      Part number      Sheet count              Epson Bright White Premium Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S450218-4      500            Epson Bright White Pro Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S041586      500            Epson Multipurpose Plus Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S450217-4      500            Epson EcoTank Premium Paper        Letter (8.5 × 11 inches [216 × 279 mm])      S041586-ET      500          Epson High Quality Ink Jet Paper      A4 (8.3 × 11.7 inches [210 × 297 mm])      S041117      100          Letter (8.5 × 11 inches [216 × 279 mm])      S041111      100          Epson Photo Paper Glossy      4 × 6 inches (102 × 152 mm)      S041809    S042038        50    100              A4 (8.3 × 11.7 inches [210 × 297 mm])        S041140      20          Letter (8.5 × 11 inches [216 × 279 mm])      S041141      20          Epson Premium Photo Paper Glossy      4 × 6 inches (102 × 152 mm)      S041727      100          5 × 7 inches (127 × 178 mm)      S041464      20          8 × 10 inches (203 × 254 mm)      S041465      20          Letter (8.5 × 11 inches [216 × 279 mm])        S041667          50            Epson Ultra Premium Photo Paper Glossy      4 × 6 inches (102 × 152 mm)      S042181    S042174        60    100            5 × 7 inches (127 × 178 mm)      S041945      20          8 × 10 inches (203 × 254 mm)      S041946      20          Letter (8.5 × 11 inches [216 × 279 mm])      S042182    S042175        25    50            Epson Premium Photo Paper Semi-gloss      4 × 6 inches (102 × 152 mm)      S041982      40          Letter (8.5 × 11 inches [216 × 279 mm])      S041331      20          Epson Presentation Paper Matte      Letter (8.5 × 11 inches [216 × 279 mm])      S041062      100          Epson Premium Presentation Paper Matte      8 × 10 inches (203 × 254 mm)      S041467      50          Letter (8.5 × 11 inches [216 × 279 mm])      S041257      50          Epson Premium Presentation Paper Matte Double-sided      Letter (8.5 × 11 inches [216 × 279 mm])      S041568      50          Epson Value Photo Paper Glossy      Letter (8.5 × 11 inches [216 × 279 mm])      S400031      50            4 × 6 inches (102 × 152 mm)        S400032    S400033      S400034        20    50      100"
+"1775041726-83","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127242316","https://epson.com/faq/SPT_C11CJ67201~faq-000080a-et2400?faq_cat=faq-8796127242316","I refilled the ink tanks after they were expended, but my nozzle check pattern still prints with gaps. What should I do?","The ink tubes may need to be filled with ink. Flush the ink tubes as instructed below.      Power Cleaning Using a Computer Utility  You can run a Power Cleaning using a utility on your Windows or Mac computer.    Note: After running a Power Cleaning, you must turn off the product and wait at least 12 hours before running another Power Cleaning.      Make sure no product lights are indicating errors.    Load a few sheets of plain paper in the product.    Do one of the following:      Windows: Access the Windows Desktop and right-click the  icon for your product in the right side of the Windows taskbar, or click the up arrow and right-click . Select Printer Settings and click the Maintenance tab.      Mac: In the Apple menu or the Dock, select System Preferences. Select Print & Fax, Print & Scan, or Printers & Scanners, select your product, and select Options & Supplies. Select Utility and select Open Printer Utility.        Select Power Cleaning. You see a window like this:
+  
+    Follow the on-screen instructions to run a Power Cleaning.    When Power Cleaning is finished, run a nozzle check.    If print quality has not improved after running Power Cleaning, wait for at least 12 hours without printing, and then print the nozzle check pattern again. Run Print Head Cleaning or Power Cleaning again depending on the printed pattern. If quality still does not improve, contact Epson support.  
+
+Related concepts
+  Print Head Nozzle Check
+  Related tasks
+  Loading Paper in the Sheet Feeder
+  Related references
+  Product Light Status"
+"1775041734-84","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127373388","https://epson.com/faq/SPT_C11CJ67201~faq-000080c-et2400?faq_cat=faq-8796127373388","I still see white or dark lines in my printout after cleaning the print head three times. What should I do?","If you still see white or dark lines or missing nozzles in your printouts, even after cleaning the print head several times, you can run a Power Cleaning.
+If you do not see improvement after running a Power Cleaning, turn off the product and wait at least 12 hours before running another Power Cleaning.
+Caution:
+
+Running a Power Cleaning consumes a lot of ink, so you should run it only if necessary. Make sure each ink tank is at least one-third full before running a Power Cleaning, or it may damage the product. Power Cleaning may cause the ink pads to reach their capacity sooner. When an ink pad reaches the end of its service life, the product stops printing and you must contact Epson for support.
+Caution:
+
+Power Cleaning may cause the ink pads to reach their capacity sooner. When an ink pad reaches the end of its service life, the product stops printing and you must contact Epson for support.
+
+
+
+Related information
+
+Refilling Ink
+Power Cleaning Using a Computer Utility
+You can run a Power Cleaning using a utility on your Windows or Mac computer.
+
+Note: After running a Power Cleaning, you must turn off the product and wait at least 12 hours before running another Power Cleaning.
+
+
+	Make sure no product lights are indicating errors.
+	Load a few sheets of plain paper in the product.
+	Do one of the following:
+	
+		Windows: Access the Windows Desktop and right-click the  icon for your product in the right side of the Windows taskbar, or click the up arrow and right-click . Select Printer Settings and click the Maintenance tab.
+		Mac: In the Apple menu or the Dock, select System Preferences. Select Print & Fax, Print & Scan, or Printers & Scanners, select your product, and select Options & Supplies. Select Utility and select Open Printer Utility.
+	
+	
+	Select Power Cleaning. You see a window like this:
+
+	
+	Follow the on-screen instructions to run a Power Cleaning.
+	When Power Cleaning is finished, run a nozzle check.
+
+If print quality has not improved after running Power Cleaning, wait for at least 12 hours without printing, and then print the nozzle check pattern again. Run Print Head Cleaning or Power Cleaning again depending on the printed pattern. If quality still does not improve, contact Epson support."
+"1775041737-85","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127373388","https://epson.com/faq/SPT_C11CJ67201~faq-0000489-et2400?faq_cat=faq-8796127373388","How do I refill the ink tanks?","See the instructions in our how-to video or follow the instructions below.Make sure you have new ink bottles handy and have read the ink safety precautions before you begin.
+You can continue to use the product even if one or more ink tanks are not filled all the way.
+Caution:
+
+Wear disposable gloves while refilling the ink tanks to avoid staining your hands. If ink spills, wipe it off immediately with a damp towel to avoid permanent stains. If ink gets on your clothes or belongings, it may not come off.
+
+	Open the ink tank cover.
+
+	
+	Open the cap for the ink tank you are going to fill.
+
+	
+	Note: Make sure the color of the ink tank label matches the ink color you want to fill.
+	Hold the ink bottle upright and slowly turn the bottle cap to remove it.
+
+	
+	Caution:
+
+	Do not shake or squeeze the bottle. Do not touch the top of the bottle after removing its cap.
+	Warning: If ink gets on your skin, wash it thoroughly with soap and water. If ink gets into your eyes, flush them immediately with water. If ink gets into your mouth, spit it out and see a doctor right away. Seek medical advice if problems persist. Keep the ink bottles out of the reach of children and do not drink the ink.
+	Check the upper line (a) on the ink tank.
+
+	
+	Position the top of the ink bottle along the slot in front of the filling port, then slowly stand the bottle up to insert it. Wait for the ink to fill the tank. Do not squeeze the bottle. Ink flows into the tank and stops automatically when the ink is filled to the upper line.
+
+	
+	Note: Do not force the bottles into position; they are keyed for each color.
+	Note: If ink does not flow from the bottle, lift and reinsert the bottle. However, do not remove and reinsert the ink bottle when the ink has reached the upper line; otherwise ink may leak.
+	When the ink tank is full, remove the ink bottle and securely close the ink tank cap as shown.
+
+	
+	Note: Do not leave the ink bottle inserted; otherwise the bottle may be damaged or ink may leak.
+	Note: If any ink remains in the bottle, replace the bottle cap and tighten it. Store the bottle upright for later use.
+
+	
+	Repeat the previous steps as necessary for each ink tank you need to fill.
+	Close the ink tank cover.
+
+	
+
+Related concepts
+
+Purchase Epson Ink
+
+Related references
+
+Ink Safety Precautions"
+"1775041740-86","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127373388","https://epson.com/faq/SPT_C11CJ67201~faq-00007eb-et2400?faq_cat=faq-8796127373388","How do I know when an ink tank needs to be refilled?","See below.      Checking Ink Levels on Your Product  To confirm the actual ink levels, visually check the ink levels in the product’s ink tanks. Make sure the ink levels are above the lower lines on the ink tanks. If any of the ink tanks are below the lower line, fill them up to the upper line on the ink tank.
+  
+  Related tasks
+  Refilling the Ink Tanks
+  Related references
+  Ink Safety Precautions"
+"1775041743-87","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127373388","https://epson.com/faq/SPT_C11CJ67201~faq-00007ea-et2400?faq_cat=faq-8796127373388","Are there any safety precautions I should take when handling the ink?","Yes, see below.      Ink Safety Precautions      Ink Handling Precautions      Keep ink bottles and the ink tanks out of the reach of children. Do not allow children to drink from or handle the ink bottles and bottle caps.    Do not tilt or shake an ink bottle after opening it; otherwise, ink may leak.    Be careful not to touch any ink when you handle the ink tanks, ink tank caps, and opened ink bottles or ink bottle caps.    If ink gets on your skin, wash it thoroughly with soap and water. If ink gets into your eyes, flush them immediately with water. If ink gets into your mouth, spit it out and see a doctor right away.    Do not squeeze the ink bottles.    If ink spills, wipe it up immediately. To prevent the ink from spreading, blot the spill with a dry cloth, then wipe it with a damp cloth. The ink will be hard to remove once it has dried.        Ink Refilling Precautions      Use ink bottles with the correct part number for this product.    Do not mix with other Epson ink types.    Do not open the ink bottle package until you are ready to fill an ink tank. Ink bottles are vacuum packed to maintain reliability. If you leave an ink bottle unpacked for a long time before using it, print quality may be affected.    If the ink level is below the lower line on an ink tank, refill the ink. Continued use of the product when the ink level is below the lower line on an ink tank could damage the product.    Visually check the ink levels in the product’s ink tanks to confirm the actual ink levels. Continued use of the product when the ink is below the lower line on an ink tank could damage the product.    Do not maintain low ink levels for extended periods of time.    Epson recommends filling all ink tanks to the upper line when the product is not operating.    After bringing an ink bottle inside from a cold storage site, allow it to warm up at room temperature for at least three hours before using it.    Use the ink bottle before the date printed on the package.    After opening an ink bottle, Epson recommends using it as soon as possible.    Wipe off any ink around the tanks and ports with a clean, lint-free cloth or cotton swab.    Store ink bottles in a cool, dark place. Keep them out of direct sunlight.    Do not store the ink bottles in high or freezing temperatures.    Store the ink bottles in the same environment as the product. When storing or transporting an opened ink bottle, do not tilt the bottle and do not subject it to impacts or temperature changes. Otherwise, ink may leak even if the cap on the ink bottle is tightened securely. Be sure to keep the ink bottle upright when tightening the cap, and take measures to prevent ink from leaking when you transport the bottle.    Handle ink carefully. Ink may splatter when the ink tanks are being filled or refilled with ink. If ink gets on your clothes or belongings, it may not come off. If ink adheres to the area around the tank, wipe it off using a lint-free, clean cloth or cotton swab.        Ink Bottle and Ink Tank Information      To maintain optimum print head performance, some ink is consumed from all ink tanks during printing and when performing maintenance operations, such as cleaning the print head. Ink may also be consumed when the product is turned on.    Quoted ink yields may vary depending on the images you are printing, the paper type you are using, how often you print, and environmental conditions such as temperature.    The ink bottles may contain recycled materials, but this does not affect product function or performance.    The specification and appearance of the ink bottles are subject to change without prior notice for improvement.    When printing in monochrome or grayscale, color ink may be used instead of black ink, depending on the paper type or print quality settings. This is because a mixture of color inks is used to create black."
+"1775041745-88","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127373388","https://epson.com/faq/SPT_C11CJ67201~faq-00004ab-shared?faq_cat=faq-8796127373388","I spilled ink. What should I do?","If ink spills, wipe it up immediately. To prevent the ink from spreading, blot the spill with a dry cloth, then quickly wipe it with a damp cloth. The ink will be hard to remove once it has dried. If the ink does not come off, try scrubbing it with the appropriate cleaning product where the ink spilled."
+"1775041751-89","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127406156","https://epson.com/faq/SPT_C11CJ67201~faq-00009ca-et2400?faq_cat=faq-8796127406156","I see the message Printer is Offline when I try to print with a USB connection in Windows. What should I do?","This problem can be caused by your printer, the connection, or the computer. Do the following:
+
+	To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.
+	
+		If you can print a nozzle check pattern, go to the next step.
+		If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.
+	
+	
+	Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	In the Epson print queue, select Printer and deselect the Use Printer Offline checkbox. If you can print, you're done. Otherwise, go to the next step.
+	Turn off your product, make sure the USB cable is securely connected, and then turn on your product and try printing again.
+	If you still can't print, make sure the USB cable is a shielded cable no more than 6.5 feet (2 meters) long. Also, try connecting the cable to another USB port on your computer or use a different cable. Try printing again.
+	Note: If you're using a hub or switchbox, connect the product directly to your computer.
+	If you can print now, you're done. If you can't print, contact Epson Support."
+"1775041754-90","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127406156","https://epson.com/faq/SPT_C11CJ67201~faq-00009c9-et2400?faq_cat=faq-8796127406156","I see the message Printer is Offline when I try to print with a USB connection on my Mac. What should I do?","This problem can be caused by your printer, the connection, or the computer. Do the following:
+
+	To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.
+	
+		If you can print a nozzle check pattern, go to the next step.
+		If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.
+	
+	
+	Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	On your Mac, open the  menu and select System Preferences. Select Print & Scan, Print & Fax, or Printers & Scanners, select your printer, and then click the  button to remove the printer. Click , select your printer with Kind set as USB, select your printer from the Use drop-down list, and then click Add. This adds the printer back to the printer queue. Try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	Turn off your product, make sure the USB cable is securely connected, and then turn on your product and try printing again.
+	Note: If you're using a hub or switchbox, connect the product directly to your computer.
+	If you still can't print, make sure the USB cable is a shielded cable no more than 6.5 feet (2 meters) long. Also, try connecting the cable to another USB port on your computer or use a different cable. Try printing again. If you can print, you're done. Otherwise, contact Epson Support."
+"1775041757-91","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127406156","https://epson.com/faq/SPT_C11CJ67201~faq-00004d9-et2400?faq_cat=faq-8796127406156","I see the message Unable to connect to network scanner. Check the scanner, network, and connection settings. What should I do?","Do the following:      Click Yes on the error message screen. The Scanner Settings window appears.    Click Enable Editing or  and click Yes on the screen that appears. If necessary, enter your computer's administrator password and click OK.    Note: If you do not see the Enable Editing button, run the Epson Scan 2 Utility as the administrator. To run the Epson Scan 2 Utility as the administrator, navigate to the Epson Scan 2 Utility shortcut, right-click the shortcut, and then click Run as administrator.      Select your product from the list in the Scanner Settings window and click Delete or  button.    Windows
+  
+      Mac
+  
+      Click Add or the  button. Make sure your product is selected as the Model in the screen that appears.    Select the IP address for your product.    Click Add. Your product appears in the Scanner Settings window.    Click OK."
+"1775041760-92","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127406156","https://epson.com/faq/SPT_C11CJ67201~faq-0000492-et2400?faq_cat=faq-8796127406156","I see the message Printer is Offline when I try to print with a wireless connection on my Mac. What should I do?","This problem can be caused by your printer, computer, or wireless network. Do the following:
+ 
+
+	To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.
+	
+		If you can print a nozzle check pattern, go to the next step.
+		If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.
+	
+	
+	Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	On your Mac, open the  menu and select System Preferences. Select Print & Scan, Print & Fax, or Printers & Scanners, select your printer, and then click the  button to remove the printer. Click , select your printer with Kind set as Bonjour, select your printer from the Use drop-down list, and then click Add. This adds the printer back to the printer queue. Try printing again. If you can print, you're done, and you can skip the remaining steps. Otherwise, go to the next step.
+	Check your product's Wi-Fi indicator and do one of the following:
+	
+		If a wireless connection is established, unplug your router's power cord from the power outlet, wait a brief period, plug it back in, and then try to print. If you can print, you're done. The problem was resolved by restarting your router. If you can't print, restart your computer and try printing again. If these steps do not resolve your problem, contact Epson Support.
+		Note: You may need to re-establish the connection for the other devices on your network after you restart your router.
+		If a wireless connection is not established, follow the instructions in the Reinstall the Product Software section below.
+	
+	
+
+
+Reinstall the Product Software
+
+
+	Reset your product's network settings. See these instructions.
+	On your Mac, open the  menu and select System Preferences. Select Print & Scan, Print & Fax, or Printers & Scanners, select your printer, and then click the  button to remove the printer.
+	Open the  menu, select System Preferences, and then click either Security & Privacy or Security. Select the Firewall tab and disable the firewall.
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Unplug your router's power cord from the power outlet, wait a brief period, and then plug it back in.
+	Note: You may need to re-establish the connection for the other devices on your network.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041763-93","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127406156","https://epson.com/faq/SPT_C11CJ67201~faq-0000493-et2400?faq_cat=faq-8796127406156","I see the message Printer is Offline when I try to print with a wireless connection in Windows. What should I do?","This problem can be caused by your printer, computer, or wireless network. Do the following:
+ 
+
+	To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.
+	
+		If you can print a nozzle check pattern, go to the next step.
+		If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.
+	
+	
+	Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.
+	In the Epson print queue, select Printer and deselect the Use Printer Offline checkbox. If you can print, you're done. Otherwise, go to the next step.
+	Check your product's Wi-Fi indicator and do one of the following:
+	
+		If a wireless connection is established, unplug your router's power cord from the power outlet, wait a brief period, plug it back in, and then try to print. If you can print, you're done. The problem was resolved by restarting your router. If you can't print, restart your computer and try printing again. If these steps do not resolve your problem, contact Epson Support.
+		Note: You may need to re-establish the connection for the other devices on your network after you restart your router.
+		If a wireless connection is not established, follow the instructions in the Reinstall the Product Software section below.
+	
+	
+
+
+Reinstall the Product Software
+
+
+	Reset your product's network settings. See these instructions.
+	Turn off the product and disconnect any interface cables.
+	Do one of the following:
+	 
+	
+		Windows 11: Click , then search for Settings and select it. Select Network & Internet > Advanced network settings > Windows Firewall. Disable the firewall.
+		Windows 10: Click  and select  (Settings) > Network & Internet > Windows Firewall. Disable the firewall.
+		Windows 8.x: Navigate to the Apps screen and select Control Panel > Windows Firewall. Disable the firewall.
+		Windows (other versions): Select  or Start > Control Panel > System and Security > Windows Firewall. Disable the firewall.
+	
+
+	If you have other firewall software enabled, you need to disable it also. If you don't know how to disable it, contact your firewall provider for help.
+
+	Note: This step is needed to install the product's software and complete the wireless setup. Remember to enable your firewall software after you complete the wireless setup.
+	Uninstall your product's software. See these instructions.
+	Unplug your router's power cord from the power outlet, wait a brief period, and then plug it back in.
+	Note: You may need to re-establish the connection for the other devices on your network.
+	Download and install the Drivers and Utilities Combo Package from the Downloads tab on the product's support page. Open the file you downloaded and follow the on-screen instructions to install the software.
+	 Follow the setup instructions in our how-to video.
+	After you complete the wireless setup, turn your firewall back on.
+
+
+If this does not solve the problem, contact Epson Support."
+"1775041766-94","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127406156","https://epson.com/faq/SPT_C11CJ67201~faq-00004c5-shared?faq_cat=faq-8796127406156","I see the message Filter Failure with rastertoescpII when I try to print from my Mac. What should I do?","Do the following:      On your Mac, open the  menu, select System Preferences or System Settings, and then select Sharing.    Do one of the following:    If there is no name in the Computer Name field, enter a name for your computer.    If there is a name in the Computer Name field, rename your computer.        Close the window.    Open the  menu, select System Preferences or System Settings > Print & Scan, Print & Fax, or Printers & Scanners > [your printer name] > Options & Supplies.    Select General, if necessary. Enter your Computer Name as the Location and click OK.    Try printing again. If you can print now, you're done. If you can't print, go to the next step.      Turn off your product.    Open the  menu, select System Preferences or System Settings > Print & Scan, Print & Fax, or Printers & Scanners > [your printer name] and click . Click Delete Printer and close the window.    Open your hard drive and do each of the following:    Select Library > Printers and drag the Epson folder to the trash.    Select Library > Printers > PPDs > Contents > Resources and drag the Epson Printer Name.gz file to the trash.    Select Library > Caches and drag the Epson folder to the trash.        Close the hard drive and empty the trash on your Mac.    Restart your Mac, turn on your product, and then reinstall the driver for your product.    Try to print again. If this does not solve the problem, contact Epson Support."
+"1775041772-95","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-0000911-et2400?faq_cat=faq-8796127438924","I was able to print from my Mac before with a USB connection, but now I can't. What should I do?","This problem can be caused by your printer, the connection, or the computer. Do the following:      To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.    If you can print a nozzle check pattern, go to the next step.    If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.        Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.      Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.    On your Mac, open the  menu and select System Preferences. Select Print & Scan, Print & Fax, or Printers & Scanners, select your printer, and then click the  button to remove the printer. Click , select your printer with Kind set as USB, select your printer from the Use drop-down list, and then click Add. This adds the printer back to the printer queue. Try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.    Turn off your product, make sure the USB cable is securely connected, and then turn on your product and try printing again.    Note: If you're using a hub or switchbox, connect the product directly to your computer.      If you still can't print, make sure the USB cable is a shielded cable no more than 6.5 feet (2 meters) long. Also, try connecting the cable to another USB port on your computer or use a different cable. Try printing again. If you can print, you're done. Otherwise, contact Epson Support."
+"1775041774-96","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-0000c9c-et2400?faq_cat=faq-8796127438924","Printing or scanning is slow over my wireless connection. What should I do?","Try the following:      Move the computer and your Epson product closer to your wireless router or access point.    Make sure to place your product within contact range of your router or access point. Avoid placing your product near a microwave oven, cordless phone, or large metal object, such as a filing cabinet.    Note: If you are using a 5 GHz wireless router, set the router to operate in dual band (2.4 GHz and 5 GHz) mode. If your router uses a single network name (SSID) for both the 2.4 GHz and 5 GHz band, give each band its own network name (SSID) instead, such as Home Network 2.4 GHz and Home Network 5 GHz. See your router documentation or contact your internet service provider for instructions.      Connect the product to another wireless network, such as a mobile hotspot. The problem may be caused by your network."
+"1775041777-97","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-0000912-et2400?faq_cat=faq-8796127438924","I was able to print from Windows before with a USB connection, but now I can't. What should I do?","This problem can be caused by your printer, the connection, or the computer. Do the following:      To determine if the printer can print without a computer, print a nozzle check pattern. See these instructions.    If you can print a nozzle check pattern, go to the next step.    If you can't print a nozzle check pattern, check the product for errors and clear them. See these instructions. Try printing a nozzle check pattern again. If you can print, go to the next step. Otherwise, contact Epson Support.        Turn your product off and on again and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.      Delete any pending print jobs from the Epson print queue and try printing again. If you can print, you're done and you can skip the remaining steps. Otherwise, go to the next step.    In the Epson print queue, select Printer and deselect the Use Printer Offline checkbox. If you can print, you're done. Otherwise, go to the next step.    Turn off your product, make sure the USB cable is securely connected, and then turn on your product and try printing again.    If you still can't print, make sure the USB cable is a shielded cable no more than 6.5 feet (2 meters) long. Also, try connecting the cable to another USB port on your computer or use a different cable. Try printing again.      Note: If you're using a hub or switchbox, connect the product directly to your computer.      If you can print now, you're done. If you can't print, contact Epson Support."
+"1775041780-98","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-0000511-et2400?faq_cat=faq-8796127438924","It takes a long time to copy a document. What should I do?","Try copying your original in standard mode. Do the following:      Place your original document on the scanner glass.    Load the paper you want to print on in the product.    Note: Load only the recommended number of sheets.      Select Copy.    You see this screen:
+  
+      Select the Advanced Settings tab.    Select Standard as the Quality setting.    When you are ready to copy, press the  start button."
+"1775041783-99","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-0000501-et2400?faq_cat=faq-8796127438924","How do I print a multi-page document from Windows or my Mac so it stacks in the correct page order?","Open the document and follow the steps below for your operating system.      Windows      Select the print command in your application.    Make sure your product is selected.    Click Printer Properties, Properties, or Preferences.    Note: If you don't see these buttons, click Setup, Printer, or Options, and click Printer Properties, Properties, or Preferences on the next screen.      Click the Main tab.  
+    Select Reverse Order.    Click OK.        Mac      Select the print command in your application.    Make sure your product is selected. Click the arrow next to the Printer setting or the Show Details button to expand the print window, if necessary.    Select Paper Handling from the printer options pop-up menu.    Select Reverse as the Page Order setting.
+  
+    Click Print."
+"1775041787-100","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-00004ff-et2400?faq_cat=faq-8796127438924","How do I print a borderless photo from Windows or my Mac?","Make sure you load a compatible borderless paper size and type. Then follow the steps below for your operating system.      Windows      Open a photo or document for printing.    Select the print command in your application.    Note: You may need to select a print icon on your screen, the Print option in the File menu, or another command. See your application's help utility for details.      If necessary, select your product name as the printer you want to use.    Note: You may also need to select Printer Properties, Properties, or Preferences to view your print settings.      You see the Main tab of your printer settings window:  
+  
+    Select a borderless paper type as the Paper Type setting.    Select a borderless paper size as the Document Size setting.    Select the Borderless checkbox.    Note: You must select a compatible borderless paper type and size to print without borders. Check the borderless paper compatibility list in the product's User's Guide for details.      Click OK.        Mac      Open a photo or document for printing.    Select the print command in your application.    Note: You may need to select a print icon on your screen, the Print option in the File menu, or another command. See your application's help utility for details.      Select your product as the Printer setting.
+  
+    If necessary, click the arrow next to the Printer setting or the Show Details button to expand the print window. You see the expanded printer settings window for your product:
+  
+    Note: The print window may look different, depending on the operating system version and the application you are using.      Select a borderless paper size as the Paper Size setting or a paper size with a Borderless option.    Select Print Settings or Printer Features from the pop-up menu.
+  
+    You see these settings:
+  
+      Select a borderless paper type as the Media Type setting.    Select the Borderless checkbox, if necessary.    Related references
+  Borderless Paper Type Compatibility"
+"1775041790-101","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-00004f9-et2400?faq_cat=faq-8796127438924","How do I set up my product to print only Black or Grayscale from Windows or my Mac?","Open a document and follow the steps below for your operating system to select Black/Grayscale or Grayscale in the printer driver.      Note: To keep the printhead clear and ready to print, the printer uses a small amount of ink from all the cartridges whenever it prints. Even if you select Black/Grayscale or Grayscale, some color ink is still used. Black/Grayscale or Grayscale is not recommended for printing black-and-white photos.      Note: If your product displays a message instructing you to replace an expended ink cartridge, you need to replace the cartridge before you can print.      Windows      Select the print command in your application.    Make sure the product is selected.    Click Printer Properties, Properties, or Preferences.    Note: If you don't see these buttons, click Setup, Printer, or Options, and click Printer Properties, Properties, or Preferences on the next screen.      Click the Main tab. 
+    Select Black/Grayscale as the Color setting.    Click OK.        Mac      Select the print command in your application.    Make sure the product is selected.    Note: Click the arrow next to the Printer setting or the Show Details button to expand the print window, if necessary.      Select Print Settings or Printer Features from the printer options pop-up menu.  
+    Select Grayscale as the Color setting.    Click Print."
+"1775041792-102","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-0000a27-et2400?faq_cat=faq-8796127438924","My copies have incorrect or faint colors. What should I do?","See our Windows or Mac how-to video or follow or the instructions below.
+Copies Have Incorrect or Faint Colors
+
+If your copies have incorrect, uneven, smeared, or faint colors, try these solutions:
+
+
+	Run a print head nozzle check to see if any of the nozzles are clogged. Then clean the print head, if necessary.
+	Do not press too hard on the original when you copy from the scanner glass.
+	Clean the scanner glass with a soft, dry, lint-free cloth or use a small amount of glass cleaner on the cloth, if necessary. Paper towels are not recommended.
+	CAUTION:
+
+	Do not spray glass cleaner directly on the scanner glass.
+	Wipe any dirt or dust off of your originals.
+	Make sure your paper is not curled.
+	When vertical banding appears or the paper is smeared, clean the paper path.
+	When horizontal banding appears or the top or bottom of the paper is smeared, load paper in the correct direction and slide the edge guides to the edges of the paper."
+"1775041795-103","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-00007fd-et2400?faq_cat=faq-8796127438924","How do I set up my product for the fastest printing?","If printing becomes slow, try these solutions:      Make sure your system meets the requirements for your operating system. If you are printing a high-resolution image, you may need more than the minimum requirements. If necessary, increase your system's memory.    If you are using Windows 7, close the Devices and Printers window before you print.    On a Mac, make sure you download and install the Epson printer driver.    Make sure Quiet Mode is turned off.    Clear space on your hard drive or run a defragmentation utility to free up existing space.    Close any programs you are not using when you print.    If your product is connected to a USB hub, connect it directly to your computer instead.    If printing becomes slower after printing continuously for a long time, the product may have automatically slowed down to protect the print mechanism from overheating or becoming damaged. Let the product rest with the power on for 30 minutes, then try printing again.    If you are printing over a wireless network, factors such as interference, network traffic, or weak signal strength may affect your printing speed.    Note: If you are using a 5 GHz wireless router, set the router to operate in dual band (2.4 GHz and 5 GHz) mode. If your router uses a single network name (SSID) for both the 2.4 GHz and 5 GHz band, give each band its own network name (SSID) instead, such as Home Network 2.4 GHz and Home Network 5 GHz. See your router documentation or contact your internet service provider for instructions.          For the fastest printing, select the following settings in your product software:      Make sure the paper type setting matches the type of paper you loaded.    Turn on any high speed settings in your product software.    Select a lower print quality setting.      Windows: Click the Maintenance or Utility tab, select Extended Settings or Speed and Progress, and select the following settings:      Always Spool RAW Datatype      Page Rendering Mode      Print as Bitmap          Windows: Select Printing preferences, click the More Options tab, and make sure the Bidirectional printing setting is enabled.      Mac: Select System Preferences, select Printers & Scanners, and select your product. Select Options & Supplies, select Options (or Driver), and enable the Bidirectional printing setting.        If printing is still slow and you are using Windows 7 or Windows Vista, try the following:      Click  and select Computer or My Computer. Double-click the C: drive and open these folders: ProgramData > EPSON > PRINTER.    Note: If you do not see the ProgramData folder, open the Organize menu and select Folder and search options. In the window that appears, click the View tab, select Show hidden files, folders, and drives in the Advanced settings list, and click OK.      Right-click the EPAUDF01.AUD file and select Delete.    Restart your computer and try printing again."
+"1775041799-104","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-00007d4-et2400?faq_cat=faq-8796127438924","How do I make multiple copies using the product's control panel?","See below.      Copying Documents or Photos  You can copy color or black-and-white documents or photos onto plain paper.    Place your original document or photo on the scanner glass.    Load plain paper in one of these sizes: Letter (8.5 × 11 inches [216 × 279 mm]) or A4 (8.3 × 11.7 inches [210 × 297 mm]).    Do one of the following to start copying:    To copy a black-and-white original, press the  B&W copy button.    To copy a color original, press the  color copy button.    To copy a black-and-white or color original in draft mode, press the  B&W copy button or the  color copy button and the  stop button at the same time.    To make more than one copy, repeatedly press the  B&W copy button or the  color copy button for the number of copies you need (up to 20 copies). For example, to make 4 copies, press the button four times. Make sure you press the button in intervals of less than one second.        Note: Margins with a width of 3 mm appear around the edges of the paper.  The product scans and prints your copy.        Note: To cancel copying, press the  stop button."
+"1775041802-105","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-00004c6-et2400?faq_cat=faq-8796127438924","Printing is slow or the printer stops printing when I try to print from Windows or my Mac. What should I do?","If printing becomes slow, try these solutions:      Make sure your system meets the requirements for your operating system. If you are printing a high-resolution image, you may need more than the minimum requirements. If necessary, increase your system's memory.    If you are using Windows 7, close the Devices and Printers window before you print.    On a Mac, make sure you download and install the Epson printer driver.    Make sure Quiet Mode is turned off.    Clear space on your hard drive or run a defragmentation utility to free up existing space.    Close any programs you are not using when you print.    If your product is connected to a USB hub, connect it directly to your computer instead.    If printing becomes slower after printing continuously for a long time, the product may have automatically slowed down to protect the print mechanism from overheating or becoming damaged. Let the product rest with the power on for 30 minutes, then try printing again.    If you are printing over a wireless network, factors such as interference, network traffic, or weak signal strength may affect your printing speed.    Note: If you are using a 5 GHz wireless router, set the router to operate in dual band (2.4 GHz and 5 GHz) mode. If your router uses a single network name (SSID) for both the 2.4 GHz and 5 GHz band, give each band its own network name (SSID) instead, such as Home Network 2.4 GHz and Home Network 5 GHz. See your router documentation or contact your internet service provider for instructions.          For the fastest printing, select the following settings in your product software:      Make sure the paper type setting matches the type of paper you loaded.    Turn on any high speed settings in your product software.    Select a lower print quality setting.      Windows: Click the Maintenance or Utility tab, select Extended Settings or Speed and Progress, and select the following settings:      Always Spool RAW Datatype      Page Rendering Mode      Print as Bitmap          Windows: Select Printing preferences, click the More Options tab, and make sure the Bidirectional printing setting is enabled.      Mac: Select System Preferences, select Printers & Scanners, and select your product. Select Options & Supplies, select Options (or Driver), and enable the Bidirectional printing setting.        If printing is still slow and you are using Windows 7 or Windows Vista, try the following:      Click  and select Computer or My Computer. Double-click the C: drive and open these folders: ProgramData > EPSON > PRINTER.    Note: If you do not see the ProgramData folder, open the Organize menu and select Folder and search options. In the window that appears, click the View tab, select Show hidden files, folders, and drives in the Advanced settings list, and click OK.      Right-click the EPAUDF01.AUD file and select Delete.    Restart your computer and try printing again.    Related tasks
+  Selecting Basic Print Settings - Windows
+  Selecting Extended Settings - Windows
+  Selecting Basic Print Settings - Mac
+  Selecting Printing Preferences - Mac
+  Related references
+  Windows System Requirements
+  Mac System Requirements
+  Paper or Media Type Settings"
+"1775041805-106","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-0000504-shared?faq_cat=faq-8796127438924","I can print with a wireless connection on my home network, but not on a VPN (virtual private network). What should I do?","When you connect to a VPN, your computer is no longer communicating with your home (local) network, so it can't print to the product. Some VPNs allow for access to the local network. This depends on if your VPN supports the feature and is enabled. Consult with the supporter of your VPN software (such as your IT department) for help. Otherwise, disconnect from your VPN to connect to your home network again to print.      Note: If you set up your product with Epson Connect, you can use Epson Remote Print to print over the Internet from a VPN. To download the Epson Remote Print driver, see the Downloads tab on your product's support page."
+"1775041809-107","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127438924","https://epson.com/faq/SPT_C11CJ67201~faq-00004bd-shared?faq_cat=faq-8796127438924","How do I print labels in Microsoft Office?","See the Create and print labels page on the Microsoft support site for instructions."
+"1775041815-108","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127340620","https://epson.com/faq/SPT_C11CJ67201~faq-0000d52-et2400?faq_cat=faq-8796127340620","How do I print from a Chromebook with my product?","Your Epson printer supports native printing on Chromebook, allowing you to print from a Chromebook without drivers or cables.    For directions on setting up your printer, visit Setting Up Your Epson Printer on Your Chromebook (U.S.) or Setting Up Your Epson Printer on Your Chromebook (Canada)."
+"1775041818-109","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127340620","https://epson.com/faq/SPT_C11CJ67201~faq-00008e2-et2400?faq_cat=faq-8796127340620","What is Epson Connect and how do I use it?","Epson Connect provides mobile services that allow you to print and scan from anywhere with an Internet connection. You can use your smartphone, tablet, or computer to print and scan documents, photos, emails, and web pages from your home, office, or even across the globe.      See the links below for instructions on how to use Epson Connect mobile services.  Related tasks
+  Using Epson Email Print
+  Using Epson Remote Print"
+"1775041821-110","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#questions","https://epson.com/Support/Printers/All-In-Ones/ET-Series/Epson-ET-2400/s/SPT_C11CJ67201#faq-8796127340620","https://epson.com/faq/SPT_C11CJ67201~faq-0000c12-shared?faq_cat=faq-8796127340620","Can I use voice-activated printing with my Epson product?","Yes. To set up your product with voice-activated printing, see our Voice-activated Printing page. To learn more about voice-activated printing services, see our FAQ pages for each option:        Epson Printer Skills for Alexa      Siri Shortcuts for Epson iPrint        Note: The voice-activated printing services listed here may not be available in all languages and countries."

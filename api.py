@@ -82,8 +82,6 @@ async def query_chatbot(request: QueryRequest, req_raw: Request):
         )
         
         
-        # Susun data sesuai model 3.3 dan 6.0 di kontrak [cite: 848, 856]
-        
         # data = ChatbotResponseData(
         #     user_message_id=int(time.time()), # Dummy ID untuk contoh
         #     assistant_message_id=int(time.time()) + 1,

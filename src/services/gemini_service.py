@@ -11,7 +11,6 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 def analyze_defect_with_gemini(text_query: str, image_path: str = None, context: str = ""):
     try:
-        # PROMPT DISESUAIKAN DENGAN API CONTRACT V1.0
         prompt = f"""Anda adalah expert EPSON printer technician untuk PT. Indonesia Epson Industry.
 Tugas: Berikan solusi teknis yang akurat berdasarkan konteks dan pertanyaan user.
 
@@ -32,7 +31,7 @@ Format respons HARUS berupa JSON murni (tanpa markdown) dengan struktur:
             except Exception as e:
                 print(f"Error membuka gambar: {e}")
 
-        # Menggunakan model gemini-2.5-flash sesuai log build kamu
+        # Menggunakan model gemini-2.5-flash 
         response = client.models.generate_content(
             model='gemini-2.5-flash',
             contents=contents
@@ -48,7 +47,7 @@ Format respons HARUS berupa JSON murni (tanpa markdown) dengan struktur:
 
     except Exception as e:
         print("Error pada Gemini Service:", e)
-        # Fallback sesuai API Contract v1.0 jika terjadi kegagalan AI
+        # Fallback 
         return {
             "response": "Sistem sedang mengalami gangguan teknis dalam memproses AI. Silakan coba beberapa saat lagi atau hubungi IT Support."
         }

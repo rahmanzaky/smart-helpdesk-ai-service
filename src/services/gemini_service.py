@@ -1,27 +1,35 @@
 import os
 import json
 from google import genai
+from google.genai import types
 from PIL import Image
 from dotenv import load_dotenv
 
-# Load environment variable
 load_dotenv()
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 def analyze_defect_with_gemini(text_query: str, image_path: str = None, context: str = ""):
     try:
-        prompt = f"""Anda adalah expert EPSON printer technician untuk PT. Indonesia Epson Industry.
-Tugas: Berikan solusi teknis yang akurat berdasarkan konteks dan pertanyaan user.
+        sys_instruct = (
+            "Anda adalah expert EPSON printer technician untuk PT. Indonesia Epson Industry. "
+            "Tugas Anda memberikan solusi teknis operasional (assembly) berdasarkan dokumen Knowledge Base.\n\n"
+            "ATURAN MUTLAK:\n"
+            "1. Format jawaban harus terstruktur: (1) Analisis Masalah, (2) Langkah Solusi, (3) Pencegahan.\n"
+            "2. Jika jawaban TIDAK ADA di 'Knowledge Base Context', DILARANG MENGARANG (halusinasi). Katakan: 'Maaf, panduan belum tersedia di dokumen referensi.'\n"
+            "3. Analisis dan tentukan kategori masalahnya ('Printing Quality' atau 'Defect Part')."
+        )
 
-User Description: "{text_query}"
-Knowledge Base Context: "{context}"
+        response_schema = types.Schema(
+            type=types.Type.OBJECT,
+            properties={
+                "response": types.Schema(type=types.Type.STRING, description="Jawaban teknis dan langkah perbaikan"),
+                "defect_category": types.Schema(type=types.Type.STRING, description="Pilih salah satu: 'Printing Quality' atau 'Defect Part'")
+            },
+            required=["response", "defect_category"]
+        )
 
-Format respons HARUS berupa JSON murni (tanpa markdown) dengan struktur:
-{{
-  "response": "tuliskan jawaban teknis dan langkah perbaikan di sini secara natural"
-}}"""
-
+        prompt = f"User Description: \"{text_query}\"\nKnowledge Base Context: \"{context}\""
         contents = [prompt]
 
         if image_path:
@@ -29,25 +37,23 @@ Format respons HARUS berupa JSON murni (tanpa markdown) dengan struktur:
                 img = Image.open(image_path)
                 contents.insert(0, img)
             except Exception as e:
-                print(f"Error membuka gambar: {e}")
+                print(f"Error membuka gambar {image_path}: {e}")
 
-        # Menggunakan model gemini-2.5-flash 
         response = client.models.generate_content(
             model='gemini-2.5-flash',
-            contents=contents
+            contents=contents,
+            config=types.GenerateContentConfig(
+                system_instruction=sys_instruct,
+                response_mime_type="application/json",
+                response_schema=response_schema,       
+                temperature=0.2
+            )
         )
-        
-        response_text = response.text
 
-        # Parsing JSON yang lebih robust
-        clean_json_string = response_text.replace("```json", "").replace("```", "").strip()
-        analysis_result = json.loads(clean_json_string)
+        analysis_result = json.loads(response.text)
         
         return analysis_result
 
     except Exception as e:
-        print("Error pada Gemini Service:", e)
-        # Fallback 
-        return {
-            "response": "Sistem sedang mengalami gangguan teknis dalam memproses AI. Silakan coba beberapa saat lagi atau hubungi IT Support."
-        }
+        print(f"CRITICAL ERROR pada Gemini Service: {e}")
+        raise Exception("AI_SERVICE_UNAVAILABLE")

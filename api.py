@@ -36,6 +36,7 @@ class QueryRequest(BaseModel):
     chat_id: int = Field(..., description="ID sesi chat")
     message: str = Field(..., min_length=1, max_length=2000)
     image_key: Optional[str] = None
+    image_url: Optional[str] = None
     defect_category: Optional[str] = None
 
 # --- 2. Middleware untuk Request ID ---
@@ -50,19 +51,19 @@ async def add_request_id(request: Request, call_next):
 
 @app.post("/api/v1/chatbot/query", response_model=GlobalResponse)
 async def query_chatbot(request: QueryRequest, req_raw: Request):
-    # Konversi image_key menjadi path asli untuk Gemini
+    start_time = time.time()
+    req_id = req_raw.headers.get("X-Request-ID", str(uuid.uuid4()))
+
     full_image_path = None
     if request.image_key:
         full_image_path = os.path.join("static", request.image_key)
-    
-    # Kirim ke RAG Pipeline
-    ai_result = chatbot(query_text=request.message, image_path=full_image_path)
 
-    start_time = time.time()
-    req_id = req_raw.headers.get("X-Request-ID", str(uuid.uuid4()))
-    
     try:
-        ai_result = chatbot(request.message, request.image_key)
+        ai_result = chatbot(
+            query_text=request.message,
+            image_path=full_image_path,
+            image_url=request.image_url,
+        )
         
         processing_time = int((time.time() - start_time) * 1000)
         

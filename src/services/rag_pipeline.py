@@ -2,18 +2,19 @@ from src.services.retrieval import retrieve
 from src.services.gemini_service import analyze_defect_with_gemini
 import json
 
-def chatbot(query_text=None, image_path=None):
+def chatbot(query_text=None, image_path=None, image_url=None):
     query_text = query_text or ""
-    
+
     # 1. RETRIEVAL (RAG): Ambil referensi dari dataset FAQ
     context_text = ""
     if query_text.strip():
         context_text = retrieve(query_text, top_k=1)
-    
+
     # 2. GENERATION (Gemini): Kirim data ke Gemini
     analysis = analyze_defect_with_gemini(
-        text_query=query_text, 
-        image_path=image_path, 
+        text_query=query_text,
+        image_path=image_path,
+        image_url=image_url,
         context=context_text
     )
     

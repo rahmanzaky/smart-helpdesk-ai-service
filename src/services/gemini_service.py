@@ -9,7 +9,7 @@ load_dotenv()
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
-def analyze_defect_with_gemini(text_query: str, image_path: str = None, context: str = ""):
+def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_url: str = None, context: str = ""):
     try:
         sys_instruct = (
             "Anda adalah expert EPSON printer technician untuk PT. Indonesia Epson Industry. "
@@ -38,6 +38,16 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, context:
                 contents.insert(0, img)
             except Exception as e:
                 print(f"Error membuka gambar {image_path}: {e}")
+        elif image_url:
+            try:
+                from urllib.request import urlopen
+                from io import BytesIO
+                with urlopen(image_url, timeout=10) as resp:
+                    img = Image.open(BytesIO(resp.read()))
+                    img.load()
+                contents.insert(0, img)
+            except Exception as e:
+                print(f"Error downloading image from URL {image_url}: {e}")
 
         response = client.models.generate_content(
             model='gemini-2.5-flash',

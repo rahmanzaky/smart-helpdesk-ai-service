@@ -5,13 +5,76 @@ import shutil
 from fastapi import FastAPI, Request, HTTPException, status
 from pydantic import BaseModel, Field
 from typing import Optional, List
-from src.services.rag_pipeline import chatbot  # Asumsi core logic kamu
+from src.services.rag_pipeline import chatbot
 from fastapi import UploadFile, File, Form
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 app = FastAPI(title="SEJAHE AI Service", version="1.0.0")
 
-# --- 1. Request & Response Models sesuai Kontrak ---
+# ==========================================
+# 1. CORS CONFIGURATION
+# ==========================================
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://helpdesk.epson.internal", 
+        "https://helpdesk-staging.epson.internal"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
+# ==========================================
+# 2. VPC IP FILTER MIDDLEWARE
+# ==========================================
+@app.middleware("http")
+async def vpc_ip_filter_middleware(request: Request, call_next):
+    # Ambil IP (dari header proxy Nginx atau langsung dari client)
+    client_ip = request.headers.get("X-Forwarded-For", request.client.host).split(",")[0].strip()
+
+    # Cek apakah IP adalah IP internal Epson (Class A, Class C, atau Localhost)
+    is_internal = (
+        client_ip.startswith("10.") or
+        client_ip.startswith("192.168.") or
+        client_ip == "127.0.0.1" or
+        client_ip == "::1"
+    )
+
+    # Jika IP dari luar (Internet Publik), tolak dengan 403 Forbidden
+    if not is_internal:
+        req_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
+        return JSONResponse(
+            status_code=status.HTTP_403_FORBIDDEN,
+            content={
+                "success": False,
+                "data": None,
+                "message": "Endpoint ini hanya dapat diakses dari jaringan internal Epson (VPC).",
+                "error": {
+                    "code": "FORBIDDEN",
+                    "message": f"Akses ditolak untuk IP: {client_ip}"
+                },
+                "request_id": req_id
+            }
+        )
+
+    # Lolos pengecekan, teruskan request
+    return await call_next(request)
+
+# ==========================================
+# 3. REQUEST ID MIDDLEWARE
+# ==========================================
+@app.middleware("http")
+async def add_request_id(request: Request, call_next):
+    request_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
+    response = await call_next(request)
+    response.headers["X-Request-ID"] = request_id
+    return response
+
+# ==========================================
+# 4. REQUEST & RESPONSE MODELS
+# ==========================================
 class RAGContext(BaseModel):
     doc_id: str
     title: str
@@ -36,9 +99,9 @@ class QueryRequest(BaseModel):
     chat_id: int = Field(..., description="ID sesi chat")
     message: str = Field(..., min_length=1, max_length=2000)
     image_key: Optional[str] = None
+    image_url: Optional[str] = None
     defect_category: Optional[str] = None
 
-# --- 2. Middleware untuk Request ID ---
 @app.middleware("http")
 async def add_request_id(request: Request, call_next):
     request_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
@@ -46,23 +109,24 @@ async def add_request_id(request: Request, call_next):
     response.headers["X-Request-ID"] = request_id
     return response
 
-# --- 3. Endpoint Utama: POST /api/v1/chatbot/query ---
-
+# ==========================================
+# 5. ENDPOINTS
+# ==========================================
 @app.post("/api/v1/chatbot/query", response_model=GlobalResponse)
 async def query_chatbot(request: QueryRequest, req_raw: Request):
-    # Konversi image_key menjadi path asli untuk Gemini
+    start_time = time.time()
+    req_id = req_raw.headers.get("X-Request-ID", str(uuid.uuid4()))
+
     full_image_path = None
     if request.image_key:
         full_image_path = os.path.join("static", request.image_key)
-    
-    # Kirim ke RAG Pipeline
-    ai_result = chatbot(query_text=request.message, image_path=full_image_path)
 
-    start_time = time.time()
-    req_id = req_raw.headers.get("X-Request-ID", str(uuid.uuid4()))
-    
     try:
-        ai_result = chatbot(request.message, request.image_key)
+        ai_result = chatbot(
+            query_text=request.message,
+            image_path=full_image_path,
+            image_url=request.image_url,
+        )
         
         processing_time = int((time.time() - start_time) * 1000)
         
@@ -119,34 +183,29 @@ async def upload_image(
     chat_id: int = Form(...), 
     file: UploadFile = File(...)
 ):
-    # Buat folder temporary jika belum ada
     upload_dir = "static/uploads"
     if not os.path.exists(upload_dir):
         os.makedirs(upload_dir)
 
-    # Buat nama file unik (image_key) 
     file_extension = file.filename.split(".")[-1]
     image_key = f"uploads/{int(time.time())}_{uuid.uuid4().hex}.{file_extension}"
     file_path = os.path.join("static", image_key)
 
-    # Simpan file secara lokal di server
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
-    # Response sesuai Global Envelope & Model 3.3 
     return {
         "success": True,
         "data": {
             "image_key": image_key,
             "mime_type": file.content_type,
             "size_bytes": os.path.getsize(file_path),
-            "expires_at": str(time.time() + 10800) # TTL 3 jam [cite: 900]
+            "expires_at": str(time.time() + 10800) # TTL 3 jam
         },
         "message": "Image uploaded successfully",
         "request_id": str(uuid.uuid4())
     }
 
-# --- 4. Health Check Endpoint ---
 @app.get("/api/v1/health")
 async def health_check():
     return {"status": "ok", "version": "v1.0"}

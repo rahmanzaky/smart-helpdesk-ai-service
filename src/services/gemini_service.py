@@ -87,7 +87,11 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
             type=types.Type.OBJECT,
             properties={
                 "response": types.Schema(type=types.Type.STRING, description="Jawaban teknis dan langkah perbaikan sesuai format instruksi CRISPE di atas."),
-                "defect_category": types.Schema(type=types.Type.STRING, description="Pilih salah satu berdasarkan analisis: 'Printing Quality', 'Defect Part', atau 'Not Applicable' jika pertanyaan tidak relevan dengan domain teknis Epson.")
+                "defect_category": types.Schema(
+                    type=types.Type.STRING,
+                    enum=["Printing Quality", "Defect Part", "Not Applicable", "General Guidance"],
+                    description="Pilih salah satu: 'Printing Quality' untuk masalah kualitas cetak, 'Defect Part' untuk kerusakan komponen, 'General Guidance' untuk pertanyaan teknis umum, 'Not Applicable' jika di luar domain."
+                )
             },
             required=["response", "defect_category"]
         )
@@ -121,7 +125,7 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
                 system_instruction=sys_instruct,
                 response_mime_type="application/json",
                 response_schema=response_schema,
-                temperature=0.2
+                temperature=0.1
             )
         )
 
@@ -160,7 +164,7 @@ Buat ringkasan terstruktur dari percakapan di atas dalam Bahasa Indonesia. Fokus
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
                 response_schema=summary_schema,
-                temperature=0.2,
+                temperature=0.1,
             )
         )
         return json.loads(response.text)

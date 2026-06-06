@@ -11,7 +11,7 @@ import pickle
 from src.services.embedding import get_embedding
 
 # LOAD DATASET
-df = pd.read_csv("data/faq_epson.csv")
+df = pd.read_csv("data/faq_epson_manufacturing.csv")
 
 df.columns = df.columns.str.strip().str.lower()
 

@@ -134,13 +134,13 @@ async def query_chatbot(request: QueryRequest, req_raw: Request):
         data = ChatbotResponseData(
             user_message_id=int(time.time()),
             assistant_message_id=int(time.time()) + 1,
-            response=ai_result["response"], # Ambil kunci 'response'
-            defect_category=request.defect_category or "Printing Quality",
+            response=ai_result["response"],
+            defect_category=ai_result.get("defect_category") or request.defect_category or "General Guidance",
             rag_context_used=[
                 RAGContext(
                     doc_id=ctx["doc_id"],
                     title=ctx["title"],
-                    similarity_score=ctx["score"]
+                    similarity_score=ctx.get("similarity_score", ctx.get("score", 0.0))
                     ) for ctx in ai_result["context"]
             ],
             processing_time_ms=processing_time

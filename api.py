@@ -106,6 +106,10 @@ class QueryRequest(BaseModel):
     image_url: Optional[str] = None
     defect_category: Optional[str] = None
 
+class SummarizeRequest(BaseModel):
+    chat_id: int = Field(..., description="ID sesi chat")
+    chat_history: str = Field(..., min_length=1, description="Riwayat percakapan dalam format teks")
+
 # ==========================================
 # 5. ENDPOINTS
 # ==========================================
@@ -189,6 +193,28 @@ async def upload_image(
         "message": "Image uploaded successfully",
         "request_id": str(uuid.uuid4())
     }
+
+@app.post("/api/v1/chatbot/summarize")
+async def summarize_chat(request: SummarizeRequest, req_raw: Request):
+    req_id = req_raw.headers.get("X-Request-ID", str(uuid.uuid4()))
+    try:
+        from src.services.gemini_service import summarize_chat_history
+        summary = summarize_chat_history(request.chat_history)
+        return {
+            "success": True,
+            "data": {"chat_id": request.chat_id, "summary": summary},
+            "message": "Summary berhasil dibuat",
+            "request_id": req_id,
+        }
+    except Exception as e:
+        logger.error("Error summarizing chat (request_id=%s): %s", req_id, e)
+        return {
+            "success": False,
+            "data": None,
+            "message": "Gagal membuat summary",
+            "error": {"code": "AI_SERVICE_UNAVAILABLE", "details": str(e)},
+            "request_id": req_id,
+        }
 
 @app.get("/api/v1/health")
 async def health_check():

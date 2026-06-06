@@ -131,3 +131,29 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
     except Exception as e:
         logger.error("CRITICAL ERROR pada Gemini Service: %s", e, exc_info=True)
         raise RuntimeError(f"AI_SERVICE_UNAVAILABLE: {e}") from e
+
+
+def summarize_chat_history(chat_history: str) -> str:
+    try:
+        prompt = f"""Berikut adalah riwayat percakapan antara teknisi dan EPSON ASSIST:
+
+{chat_history}
+
+Buat ringkasan singkat (maksimal 3 kalimat) dalam Bahasa Indonesia yang mencakup:
+1. Masalah utama yang dilaporkan teknisi.
+2. Solusi atau panduan yang diberikan.
+3. Kategori defect (jika ada).
+
+Tulis hanya ringkasannya saja, tanpa label atau penomoran."""
+
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=[prompt],
+            config=types.GenerateContentConfig(
+                temperature=0.2,
+            )
+        )
+        return response.text.strip()
+    except Exception as e:
+        logger.error("CRITICAL ERROR pada summarize_chat_history: %s", e, exc_info=True)
+        raise RuntimeError(f"AI_SERVICE_UNAVAILABLE: {e}") from e

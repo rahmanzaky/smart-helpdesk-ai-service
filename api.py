@@ -106,6 +106,9 @@ class QueryRequest(BaseModel):
     image_url: Optional[str] = None
     defect_category: Optional[str] = None
 
+
+class SummaryRequest(BaseModel):
+    chat_i: int = Field()
 # ==========================================
 # 5. ENDPOINTS
 # ==========================================
@@ -189,6 +192,45 @@ async def upload_image(
         "message": "Image uploaded successfully",
         "request_id": str(uuid.uuid4())
     }
+
+# ---Endpoint: GET /api/v1/chatbot/summarize"
+@app.post("/api/v1/chatbot/summarize")
+async def summarize_chat(request: SummaryRequest):
+    try:
+        # Prompt sistem khusus untuk meringkas (bukan RAG)
+        prompt_text = f"""
+        Kamu adalah asisten admin helpdesk cerdas. Buatlah ringkasan singkat (maksimal 3 kalimat) dari riwayat percakapan helpdesk berikut.
+        Fokus pada: 1. Masalah utama pengguna, 2. Solusi yang diberikan bot, 3. Apakah masalah terlihat sudah teratasi.
+
+        Riwayat Percakapan:
+        {request.chat_history}
+        """
+
+        # Memanggil Gemini secara langsung (sesuaikan dengan inisialisasi client Gemini kamu)
+        # Asumsi kamu memakai sintaks SDK terbaru seperti yang kamu tunjukkan sebelumnya
+        import google.genai as genai
+        import os
+        
+        client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt_text
+        )
+
+        return {
+            "success": True,
+            "data": {
+                "summary": response.text
+            },
+            "message": "Summary generated successfully"
+        }
+
+    except Exception as e:
+        return {
+            "success": False,
+            "message": "Failed to generate summary",
+            "error": str(e)
+        }
 
 @app.get("/api/v1/health")
 async def health_check():

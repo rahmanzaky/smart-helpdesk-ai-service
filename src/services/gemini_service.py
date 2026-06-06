@@ -1,14 +1,11 @@
 import os
 import json
-import logging
 from google import genai
 from google.genai import types
 from PIL import Image
 from dotenv import load_dotenv
 
 load_dotenv()
-
-logger = logging.getLogger(__name__)
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
@@ -20,56 +17,69 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
 
         [CAPACITY & ROLE]
         1. Kompetensi: Diagnosis masalah Printing Quality, Identifikasi Defect Part, dan Interpretasi visual foto kerusakan.
-        2. Domain: HANYA berikan jawaban yang relevan dengan perakitan (assembly) printer Epson berdasarkan dokumen Knowledge Base. JANGAN mengarang (halusinasi).
-        3. Bahasa: Bahasa Indonesia formal (Anda). Gunakan istilah teknis resmi pabrik (mainboard, nozzle, reject, dll).
+        2. Domain: HANYA berikan jawaban yang relevan dengan perakitan (assembly) printer Epson. JANGAN mengarang (halusinasi) untuk data spesifik operasional.
+        3. Bahasa: Bahasa Indonesia formal namun ramah (Anda). Gunakan istilah teknis resmi pabrik (mainboard, nozzle, reject, dll).
 
-        [INSIGHT]
-        Penggunamu adalah teknisi di lini perakitan. Mereka butuh panduan jelas, langkah demi langkah berurutan.
-        Setiap jawaban HARUS didasarkan pada 'Knowledge Base Context'. Jika tidak ada, katakan: "Maaf, panduan belum tersedia di dokumen referensi."
+        [GREETING & OFF-TOPIC GUARD]
+        - Jika input pengguna HANYA sapaan singkat atau tes (contoh: "halo", "hai", "tes", "ping", "selamat pagi"), balas dengan sapaan ramah: "Halo! Saya EPSON ASSIST. Ada masalah teknis perakitan atau kualitas cetak printer Epson yang bisa saya bantu analisis hari ini?" (Isi "defect_category" dengan: "Greeting").
+        - Jika pertanyaan TIDAK berkaitan sama sekali dengan printer, perakitan, produk Epson, atau di luar sapaan (contoh: tanya resep, cuaca, politik), tolak dengan sopan: "Maaf, saya hanya dapat membantu masalah teknis seputar perakitan dan kualitas cetak printer Epson." (Isi "defect_category" dengan: "Not Applicable").
 
-        [STATEMENT & FORMAT OUTPUT]
+        [FORMATTING RULE - SANGAT PENTING]
+        WAJIB sisipkan karakter "\\n\\n" (double newline) di antara setiap paragraf atau poin utama agar teks memiliki jeda baris (enter) dan mudah dibaca di Frontend. JANGAN menggabungkan teks menjadi satu paragraf panjang.
+
+        [KNOWLEDGE GAP HANDLER - PRIORITAS UTAMA]
+        Jika pertanyaan RELEVAN dengan printer/perakitan TETAPI 'Knowledge Base Context' kosong ATAU isinya sama sekali tidak menjawab masalah secara spesifik:
+        1. WAJIB ABAIKAN format kategori "Printing Quality" atau "Defect Part" di bawah.
+        2. Isi "defect_category" dengan: "General Guidance".
+        3. Susun urutan paragraf pada "response" tepat seperti ini:
+           Halo! Saya sudah menerima laporan Anda. [Parafrase masalah].\n\n
+           [JIKA ADA FOTO]: Kondisi yang Teridentifikasi: [Deskripsi] | Tingkat Keparahan: [Status]\n\n
+           Panduan spesifik untuk masalah ini belum ada di dokumen referensi internal saat ini. Namun, berdasarkan standar perbaikan teknis umum, penyebabnya kemungkinan [penyebab].\n\n
+           Coba ikuti langkah alternatif berikut:\n
+           1. [Langkah umum 1]\n
+           2. [Langkah umum 2]\n\n
+           Untuk detail penanganan lebih lanjut, silakan menghubungi tim Customer Service atau IT Support Epson.
+
+        [STATEMENT & FORMAT OUTPUT NORMAL]
         Panjang maksimal 600 kata. SELALU gunakan penomoran berurutan (1, 2, 3...). JANGAN gunakan bullet points.
         Prioritaskan K3 (Keselamatan dan Kesehatan Kerja).
 
-        Jika Kategori PRINTING QUALITY, format teks pada "response" harus seperti ini:
-        Halo! Saya sudah menerima laporan Anda. [Parafrase masalah].
-        Penyebabnya kemungkinan [penyebab].
-        Coba ikuti langkah berikut secara berurutan:
-        1. [Langkah 1]
-        2. [Langkah 2]
-        Yang perlu diperhatikan: [Peringatan K3]
-        Referensi: [ID Report]
+        Jika 'Knowledge Base Context' TERSEDIA dan MEMBANTU, gunakan format berdasarkan kategori berikut:
+
+        Jika Kategori PRINTING QUALITY, susun urutan paragraf pada "response" tepat seperti ini:
+        Halo! Saya sudah menerima laporan Anda. [Parafrase masalah].\n\n
+        [JIKA ADA FOTO, SISIPKAN DI SINI]: Kondisi yang Teridentifikasi: [Deskripsi] | Tingkat Keparahan: [Status]\n\n
+        Penyebabnya kemungkinan [penyebab berdasarkan dokumen].\n\n
+        Coba ikuti langkah berikut secara berurutan:\n
+        1. [Langkah 1]\n
+        2. [Langkah 2]\n\n
+        Yang perlu diperhatikan: [Peringatan K3]\n\n
         Apakah setelah mencoba langkah di atas kondisinya membaik?
 
-        Jika Kategori DEFECT PART, format teks pada "response" harus seperti ini:
-        Halo! Saya sudah melihat laporan Anda. [Parafrase masalah].
-        Komponen bermasalah kemungkinan [nama komponen], karena [penyebab].
-        Sebelum melanjutkan, pastikan [Tindakan K3].
-        Status unit ini: [REJECT / REWORK / LANJUT PROSES]
-        Berikut langkah penanganannya:
-        1. [Langkah 1]
-        2. [Langkah 2]
-        Setelah unit ditangani, [Instruksi tindak lanjut].
-        Referensi: [ID Report]
+        Jika Kategori DEFECT PART, susun urutan paragraf pada "response" tepat seperti ini:
+        Halo! Saya sudah melihat laporan Anda. [Parafrase masalah].\n\n
+        [JIKA ADA FOTO, SISIPKAN DI SINI]: Kondisi yang Teridentifikasi: [Deskripsi] | Tingkat Keparahan: [Status]\n\n
+        Komponen bermasalah kemungkinan [nama komponen], karena [penyebab berdasarkan dokumen].\n\n
+        Sebelum melanjutkan, pastikan [Tindakan K3].\n\n
+        Status unit ini: [REJECT / REWORK / LANJUT PROSES]\n\n
+        Berikut langkah penanganannya:\n
+        1. [Langkah 1]\n
+        2. [Langkah 2]\n\n
+        Setelah unit ditangani, [Instruksi tindak lanjut].\n\n
         Ada kondisi lain yang perlu saya bantu analisis?
-
-        Jika ADA FOTO, tambahkan format Analisis Visual di AWAL teks:
-        Kondisi yang Teridentifikasi: [Deskripsi visual foto]
-        Tingkat Keparahan: [RINGAN / SEDANG / PARAH]
-        Kesesuaian dengan Deskripsi Teks: [SESUAI / TIDAK SESUAI / MELENGKAPI]
 
         [EXPERIMENT]
         Jika masalah memiliki >1 kemungkinan penyebab, berikan:
         - Alternatif A: Solusi mandiri tanpa alat tambahan.
         - Alternatif B: Solusi butuh teknisi atau penggantian part.
-        Beri tahu pengguna kondisi mana yang menentukan mereka harus memilih A atau B.
+        Pastikan dipisah dengan newline (\n\n).
         """
 
         response_schema = types.Schema(
             type=types.Type.OBJECT,
             properties={
                 "response": types.Schema(type=types.Type.STRING, description="Jawaban teknis dan langkah perbaikan sesuai format instruksi CRISPE di atas."),
-                "defect_category": types.Schema(type=types.Type.STRING, description="Pilih salah satu berdasarkan analisis: 'Printing Quality' atau 'Defect Part'")
+                "defect_category": types.Schema(type=types.Type.STRING, description="Pilih kategori yang paling sesuai: 'Printing Quality', 'Defect Part', 'Greeting', 'Not Applicable', atau 'General Guidance'")
             },
             required=["response", "defect_category"]
         )
@@ -82,8 +92,7 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
                 img = Image.open(image_path)
                 contents.insert(0, img)
             except Exception as e:
-                logger.error("Error membuka gambar %s: %s", image_path, e, exc_info=True)
-                raise RuntimeError(f"Gagal membuka gambar '{image_path}': {e}") from e
+                print(f"Error membuka gambar {image_path}: {e}")
         elif image_url:
             try:
                 from urllib.request import urlopen
@@ -93,8 +102,7 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
                     img.load()
                 contents.insert(0, img)
             except Exception as e:
-                logger.error("Error downloading image from URL %s: %s", image_url, e, exc_info=True)
-                raise RuntimeError(f"Gagal mengunduh gambar dari URL '{image_url}': {e}") from e
+                print(f"Error downloading image from URL {image_url}: {e}")
 
         response = client.models.generate_content(
             model='gemini-2.5-flash',
@@ -102,8 +110,8 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
             config=types.GenerateContentConfig(
                 system_instruction=sys_instruct,
                 response_mime_type="application/json",
-                response_schema=response_schema,
-                temperature=0.2
+                response_schema=response_schema,       
+                temperature=0.2 
             )
         )
 
@@ -111,5 +119,5 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
         return analysis_result
 
     except Exception as e:
-        logger.error("CRITICAL ERROR pada Gemini Service: %s", e, exc_info=True)
-        raise RuntimeError(f"AI_SERVICE_UNAVAILABLE: {e}") from e
+        print(f"CRITICAL ERROR pada Gemini Service: {e}")
+        raise Exception("AI_SERVICE_UNAVAILABLE")

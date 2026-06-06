@@ -133,27 +133,37 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
         raise RuntimeError(f"AI_SERVICE_UNAVAILABLE: {e}") from e
 
 
-def summarize_chat_history(chat_history: str) -> str:
+def summarize_chat_history(chat_history: str) -> dict:
     try:
-        prompt = f"""Berikut adalah riwayat percakapan antara teknisi dan EPSON ASSIST:
+        summary_schema = types.Schema(
+            type=types.Type.OBJECT,
+            properties={
+                "topic": types.Schema(type=types.Type.STRING, description="Topik utama yang didiskusikan teknisi"),
+                "reported_issue": types.Schema(type=types.Type.STRING, description="Masalah atau kerusakan yang dilaporkan oleh teknisi"),
+                "solution": types.Schema(type=types.Type.STRING, description="Solusi atau langkah perbaikan yang diberikan oleh AI"),
+                "benefit": types.Schema(type=types.Type.STRING, description="Manfaat atau hasil yang diharapkan dari solusi yang diberikan"),
+                "category": types.Schema(type=types.Type.STRING, description="Kategori defect: Printing Quality, Defect Part, General Guidance, atau Not Applicable"),
+                "recommendation": types.Schema(type=types.Type.STRING, description="Rekomendasi tindak lanjut atau eskalasi jika diperlukan"),
+            },
+            required=["topic", "reported_issue", "solution", "benefit", "category", "recommendation"]
+        )
+
+        prompt = f"""Berikut adalah riwayat percakapan antara teknisi dan EPSON ASSIST (AI helpdesk internal PT. Indonesia Epson Industry):
 
 {chat_history}
 
-Buat ringkasan singkat (maksimal 3 kalimat) dalam Bahasa Indonesia yang mencakup:
-1. Masalah utama yang dilaporkan teknisi.
-2. Solusi atau panduan yang diberikan.
-3. Kategori defect (jika ada).
-
-Tulis hanya ringkasannya saja, tanpa label atau penomoran."""
+Buat ringkasan terstruktur dari percakapan di atas dalam Bahasa Indonesia. Fokus pada informasi teknis yang relevan untuk laporan manajer."""
 
         response = client.models.generate_content(
             model='gemini-2.5-flash',
             contents=[prompt],
             config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=summary_schema,
                 temperature=0.2,
             )
         )
-        return response.text.strip()
+        return json.loads(response.text)
     except Exception as e:
         logger.error("CRITICAL ERROR pada summarize_chat_history: %s", e, exc_info=True)
         raise RuntimeError(f"AI_SERVICE_UNAVAILABLE: {e}") from e

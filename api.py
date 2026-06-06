@@ -2,6 +2,7 @@ import os
 import time
 import uuid
 import shutil
+import logging
 from fastapi import FastAPI, Request, HTTPException, status
 from pydantic import BaseModel, Field
 from typing import Optional, List
@@ -10,17 +11,19 @@ from fastapi import UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+logger = logging.getLogger(__name__)
+
 app = FastAPI(title="SEJAHE AI Service", version="1.0.0")
 
 # ==========================================
 # 1. CORS CONFIGURATION
 # ==========================================
+_raw_origins = os.environ.get("ALLOWED_ORIGINS", "")
+allowed_origins = [o.strip() for o in _raw_origins.split(",") if o.strip()] or ["*"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://helpdesk.epson.internal", 
-        "https://helpdesk-staging.epson.internal"
-    ],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -45,6 +48,7 @@ async def vpc_ip_filter_middleware(request: Request, call_next):
     # Jika IP dari luar (Internet Publik), tolak dengan 403 Forbidden
     if not is_internal:
         req_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
+        logger.warning("Access denied for external IP: %s", client_ip)
         return JSONResponse(
             status_code=status.HTTP_403_FORBIDDEN,
             content={
@@ -102,13 +106,6 @@ class QueryRequest(BaseModel):
     image_url: Optional[str] = None
     defect_category: Optional[str] = None
 
-@app.middleware("http")
-async def add_request_id(request: Request, call_next):
-    request_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
-    response = await call_next(request)
-    response.headers["X-Request-ID"] = request_id
-    return response
-
 # ==========================================
 # 5. ENDPOINTS
 # ==========================================
@@ -127,9 +124,9 @@ async def query_chatbot(request: QueryRequest, req_raw: Request):
             image_path=full_image_path,
             image_url=request.image_url,
         )
-        
+
         processing_time = int((time.time() - start_time) * 1000)
-        
+
         data = ChatbotResponseData(
             user_message_id=int(time.time()),
             assistant_message_id=int(time.time()) + 1,
@@ -137,30 +134,15 @@ async def query_chatbot(request: QueryRequest, req_raw: Request):
             defect_category=request.defect_category or "Printing Quality",
             rag_context_used=[
                 RAGContext(
-                    doc_id=ctx["doc_id"], 
-                    title=ctx["title"], 
+                    doc_id=ctx["doc_id"],
+                    title=ctx["title"],
                     similarity_score=ctx["score"]
                     ) for ctx in ai_result["context"]
             ],
             processing_time_ms=processing_time
         )
-        
-        
-        # data = ChatbotResponseData(
-        #     user_message_id=int(time.time()), # Dummy ID untuk contoh
-        #     assistant_message_id=int(time.time()) + 1,
-        #     response=ai_result["answer"],
-        #     defect_category=request.defect_category or "Printing Quality",
-        #     rag_context_used=[
-        #         RAGContext(
-        #             doc_id=ctx["doc_id"], 
-        #             title=ctx["title"], 
-        #             similarity_score=ctx["score"]
-        #         ) for ctx in ai_result["context"]
-        #     ],
-        #     processing_time_ms=processing_time
-        # )
-        
+
+        logger.info("Query processed successfully in %dms (request_id=%s)", processing_time, req_id)
         return GlobalResponse(
             success=True,
             data=data,
@@ -169,18 +151,19 @@ async def query_chatbot(request: QueryRequest, req_raw: Request):
         )
 
     except Exception as e:
-        # Error handling sesuai Registry di kontrak 
+        logger.error("Error processing query (request_id=%s): %s", req_id, e)
+        # Error handling sesuai Registry di kontrak
         return GlobalResponse(
             success=False,
             message="Cloud AI service unreachable",
             error={"code": "AI_SERVICE_UNAVAILABLE", "details": str(e)},
             request_id=req_id
         )
-    
+
 # --- Endpoint: POST /api/v1/chatbot/upload-image ---
 @app.post("/api/v1/chatbot/upload-image", status_code=201)
 async def upload_image(
-    chat_id: int = Form(...), 
+    chat_id: int = Form(...),
     file: UploadFile = File(...)
 ):
     upload_dir = "static/uploads"
@@ -194,6 +177,7 @@ async def upload_image(
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
+    logger.info("Image uploaded: %s (chat_id=%d)", image_key, chat_id)
     return {
         "success": True,
         "data": {

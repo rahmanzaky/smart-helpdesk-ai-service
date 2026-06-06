@@ -1,11 +1,14 @@
 import os
 import json
+import logging
 from google import genai
 from google.genai import types
 from PIL import Image
 from dotenv import load_dotenv
 
 load_dotenv()
+
+logger = logging.getLogger(__name__)
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
@@ -79,7 +82,8 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
                 img = Image.open(image_path)
                 contents.insert(0, img)
             except Exception as e:
-                print(f"Error membuka gambar {image_path}: {e}")
+                logger.error("Error membuka gambar %s: %s", image_path, e, exc_info=True)
+                raise RuntimeError(f"Gagal membuka gambar '{image_path}': {e}") from e
         elif image_url:
             try:
                 from urllib.request import urlopen
@@ -89,7 +93,8 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
                     img.load()
                 contents.insert(0, img)
             except Exception as e:
-                print(f"Error downloading image from URL {image_url}: {e}")
+                logger.error("Error downloading image from URL %s: %s", image_url, e, exc_info=True)
+                raise RuntimeError(f"Gagal mengunduh gambar dari URL '{image_url}': {e}") from e
 
         response = client.models.generate_content(
             model='gemini-2.5-flash',
@@ -97,8 +102,8 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
             config=types.GenerateContentConfig(
                 system_instruction=sys_instruct,
                 response_mime_type="application/json",
-                response_schema=response_schema,       
-                temperature=0.2 
+                response_schema=response_schema,
+                temperature=0.2
             )
         )
 
@@ -106,5 +111,5 @@ def analyze_defect_with_gemini(text_query: str, image_path: str = None, image_ur
         return analysis_result
 
     except Exception as e:
-        print(f"CRITICAL ERROR pada Gemini Service: {e}")
-        raise Exception("AI_SERVICE_UNAVAILABLE")
+        logger.error("CRITICAL ERROR pada Gemini Service: %s", e, exc_info=True)
+        raise RuntimeError(f"AI_SERVICE_UNAVAILABLE: {e}") from e
